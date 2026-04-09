@@ -453,11 +453,30 @@ function goToHash(id) {
   return true;
 }
 
-function scrollPagePanelIntoView(behavior = "auto") {
-  document.getElementById("page-content")?.scrollIntoView({
+function getPageAnchorId(pageId) {
+  const activePage = pageOrder.find((page) => page.id === pageId);
+  return activePage?.kind === "day" ? `${pageId}-intro` : "page-content";
+}
+
+function getScrollOffset() {
+  const navShellHeight = document.querySelector(".nav-shell")?.getBoundingClientRect().height ?? 0;
+  return navShellHeight + (window.innerWidth <= 640 ? 18 : 32);
+}
+
+function scrollToElementWithOffset(element, behavior = "auto") {
+  if (!element) return;
+
+  const top = window.scrollY + element.getBoundingClientRect().top - getScrollOffset();
+  window.scrollTo({
+    top: Math.max(top, 0),
     behavior,
-    block: "start",
   });
+}
+
+function scrollToPageAnchor(pageId, behavior = "auto") {
+  const target =
+    document.getElementById(getPageAnchorId(pageId)) ?? document.getElementById("page-content");
+  scrollToElementWithOffset(target, behavior);
 }
 
 function getSavedPage() {
@@ -520,10 +539,7 @@ function getSectionLinks(page) {
 }
 
 function scrollToSection(targetId) {
-  document.getElementById(targetId)?.scrollIntoView({
-    behavior: "smooth",
-    block: "start",
-  });
+  scrollToElementWithOffset(document.getElementById(targetId), "smooth");
 }
 
 function App() {
@@ -561,7 +577,9 @@ function App() {
       if (nextPageId === currentPageId) return;
 
       pageScrollPositionsRef.current[currentPageId] = window.scrollY;
-      pendingPageScrollRef.current = "restore";
+      if (!pendingPageScrollRef.current || pendingPageScrollRef.current.pageId !== nextPageId) {
+        pendingPageScrollRef.current = { mode: "restore", pageId: nextPageId };
+      }
       setPageId(nextPageId);
     };
 
@@ -572,19 +590,26 @@ function App() {
   useEffect(() => {
     setNavOpen(false);
 
+    const pendingScroll = pendingPageScrollRef.current;
     let frameId;
+    let settleTimer;
     if (firstPageRenderRef.current) {
       firstPageRenderRef.current = false;
-    } else if (pendingPageScrollRef.current === "restore") {
+    } else if (pendingScroll?.pageId === pageId) {
       frameId = window.requestAnimationFrame(() => {
-        const savedScroll = pageScrollPositionsRef.current[pageId];
+        if (pendingScroll.mode === "page-anchor") {
+          scrollToPageAnchor(pageId);
+          settleTimer = window.setTimeout(() => scrollToPageAnchor(pageId), 90);
+          return;
+        }
 
+        const savedScroll = pageScrollPositionsRef.current[pageId];
         if (typeof savedScroll === "number") {
           window.scrollTo({ top: savedScroll, behavior: "auto" });
           return;
         }
 
-        scrollPagePanelIntoView();
+        scrollToPageAnchor(pageId);
       });
     }
 
@@ -598,6 +623,7 @@ function App() {
 
     return () => {
       if (frameId) window.cancelAnimationFrame(frameId);
+      if (settleTimer) window.clearTimeout(settleTimer);
     };
   }, [pageId]);
 
@@ -642,12 +668,12 @@ function App() {
   const openPage = (id) => {
     setNavOpen(false);
     if (id === pageId) {
-      scrollPagePanelIntoView("smooth");
+      scrollToPageAnchor(pageId, "smooth");
       return;
     }
 
     pageScrollPositionsRef.current[pageId] = window.scrollY;
-    pendingPageScrollRef.current = "restore";
+    pendingPageScrollRef.current = { mode: "page-anchor", pageId: id };
     goToHash(id);
   };
 
@@ -1055,7 +1081,7 @@ function DayPage({ day }) {
 
   return html`
     <section>
-      <header className="page-header">
+      <header className="page-header page-anchor" id=${`${day.id}-intro`}>
         <p className="page-kicker">${day.kicker}</p>
         <h2>${day.title}</h2>
         <p>${day.summary}</p>

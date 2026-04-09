@@ -16,6 +16,10 @@
   --radius-xl: 28px;
   --radius-lg: 22px;
   --radius-md: 16px;
+  --font-body: clamp(1rem, 0.97rem + 0.16vw, 1.04rem);
+  --font-meta: clamp(0.92rem, 0.88rem + 0.14vw, 0.97rem);
+  --font-label: clamp(0.82rem, 0.78rem + 0.14vw, 0.88rem);
+  --font-title-sm: clamp(1.04rem, 0.99rem + 0.2vw, 1.12rem);
 }
 
 * {
@@ -24,6 +28,8 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -35,6 +41,7 @@ body {
     linear-gradient(180deg, #f8f3eb 0%, #f4f6fa 52%, #eef5ef 100%);
   color: var(--ink);
   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  font-size: var(--font-body);
 }
 
 body.nav-open {
@@ -92,7 +99,7 @@ button {
 .page-kicker {
   margin: 0 0 10px;
   color: var(--blue);
-  font-size: 0.8rem;
+  font-size: var(--font-label);
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -105,7 +112,7 @@ button {
 .hero h1 {
   margin: 0;
   font-family: "Noto Serif TC", serif;
-  font-size: clamp(2rem, 7vw, 3.15rem);
+  font-size: clamp(2.15rem, 6vw, 3.15rem);
   line-height: 1.12;
 }
 
@@ -145,7 +152,7 @@ button {
 
 .hero-focus-card h2 {
   margin: -2px 0 0;
-  font-size: 1.35rem;
+  font-size: clamp(1.4rem, 1.1rem + 0.8vw, 1.55rem);
   line-height: 1.28;
 }
 
@@ -173,13 +180,13 @@ button {
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.12);
   color: #fff;
-  font-size: 0.92rem;
+  font-size: var(--font-meta);
   font-weight: 700;
 }
 
 .hero-chip.subtle {
   background: rgba(255, 255, 255, 0.08);
-  font-size: 0.82rem;
+  font-size: clamp(0.86rem, 0.82rem + 0.12vw, 0.9rem);
 }
 
 .hero-chip-row {
@@ -249,7 +256,7 @@ button {
 }
 
 .focus-callout span {
-  font-size: 0.76rem;
+  font-size: var(--font-label);
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -257,7 +264,7 @@ button {
 }
 
 .focus-callout strong {
-  font-size: 0.96rem;
+  font-size: var(--font-meta);
   line-height: 1.5;
 }
 
@@ -396,13 +403,13 @@ button {
 
 .navigator-current-copy strong {
   display: block;
-  font-size: 1rem;
+  font-size: var(--font-title-sm);
 }
 
 .navigator-current-copy p {
   margin: 4px 0 0;
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: var(--font-meta);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -490,6 +497,11 @@ button {
   min-height: 50vh;
 }
 
+.page-anchor,
+.section-block {
+  scroll-margin-top: clamp(110px, 18vw, 164px);
+}
+
 .page-header {
   margin-bottom: 16px;
 }
@@ -497,7 +509,7 @@ button {
 .page-header h2 {
   margin: 8px 0 10px;
   font-family: "Noto Serif TC", serif;
-  font-size: clamp(1.7rem, 5vw, 2.4rem);
+  font-size: clamp(1.95rem, 4.7vw, 2.4rem);
   line-height: 1.18;
 }
 
@@ -531,7 +543,7 @@ button {
 .section-head h3,
 .section-block h3 {
   margin: 0;
-  font-size: 1.08rem;
+  font-size: var(--font-title-sm);
 }
 
 .section-head p {
@@ -563,7 +575,7 @@ button {
 .budget-card h3,
 .prep-card h3 {
   margin: 6px 0 10px;
-  font-size: 1.05rem;
+  font-size: var(--font-title-sm);
 }
 
 .soft-label {
@@ -573,7 +585,7 @@ button {
   border-radius: 999px;
   background: var(--blue-soft);
   color: var(--blue);
-  font-size: 0.78rem;
+  font-size: var(--font-label);
   font-weight: 800;
 }
 
@@ -609,7 +621,7 @@ button {
   border-radius: 999px;
   background: var(--green-soft);
   color: var(--green);
-  font-size: 0.88rem;
+  font-size: var(--font-meta);
   font-weight: 700;
 }
 
@@ -623,13 +635,13 @@ button {
 
 .journey-card h4 {
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--font-title-sm);
 }
 
 .journey-meta,
 .drawer-meta {
   color: var(--blue);
-  font-size: 0.84rem;
+  font-size: var(--font-meta);
   font-weight: 700;
 }
 
@@ -661,7 +673,7 @@ button {
 .pulse-card strong {
   display: block;
   margin-top: 6px;
-  font-size: 1rem;
+  font-size: var(--font-title-sm);
   line-height: 1.45;
 }
 
@@ -689,7 +701,7 @@ button {
   justify-content: center;
   padding: 0.55rem 0.7rem;
   border-radius: 14px;
-  font-size: 0.9rem;
+  font-size: var(--font-meta);
   font-weight: 800;
   text-align: center;
   align-self: start;
@@ -707,7 +719,7 @@ button {
 
 .timeline-body h3 {
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--font-title-sm);
 }
 
 .timeline-body p {
@@ -727,7 +739,7 @@ button {
 
 .restaurant-card h4 {
   margin: 0;
-  font-size: 1rem;
+  font-size: var(--font-title-sm);
 }
 
 .price-badge {
@@ -737,7 +749,7 @@ button {
   border-radius: 999px;
   background: var(--orange-soft);
   color: var(--orange);
-  font-size: 0.78rem;
+  font-size: var(--font-label);
   font-weight: 800;
 }
 
@@ -772,7 +784,7 @@ button {
   display: inline-flex;
   margin-bottom: 8px;
   color: var(--green);
-  font-size: 0.78rem;
+  font-size: var(--font-label);
   font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -816,7 +828,7 @@ button {
 }
 
 .drawer-card strong {
-  font-size: 1rem;
+  font-size: var(--font-title-sm);
   line-height: 1.45;
 }
 
@@ -831,7 +843,7 @@ button {
 
 .drawer-status {
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: var(--font-label);
   font-weight: 700;
 }
 
@@ -879,7 +891,7 @@ button {
 
 .nav-drawer-header h2 {
   margin: 6px 0 8px;
-  font-size: 1.35rem;
+  font-size: clamp(1.4rem, 1.1rem + 0.7vw, 1.55rem);
 }
 
 .icon-button {
@@ -897,7 +909,7 @@ button {
   display: block;
   margin-bottom: 8px;
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: var(--font-meta);
   font-weight: 700;
 }
 
@@ -937,7 +949,7 @@ button {
   background: rgba(255, 255, 255, 0.74);
   text-align: center;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--font-meta);
   font-weight: 700;
 }
 
@@ -949,12 +961,12 @@ button {
 .pager-status span {
   display: block;
   margin-top: 4px;
-  font-size: 0.82rem;
+  font-size: var(--font-meta);
 }
 
 .pager-eyebrow {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: var(--font-label);
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -962,7 +974,7 @@ button {
 
 .pager-caption {
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: var(--font-meta);
   line-height: 1.45;
 }
 
@@ -977,7 +989,7 @@ button {
   background: rgba(21, 33, 53, 0.94);
   color: #fff;
   box-shadow: 0 14px 28px rgba(15, 23, 36, 0.18);
-  font-size: 0.92rem;
+  font-size: var(--font-meta);
   font-weight: 700;
 }
 
@@ -997,6 +1009,13 @@ button {
 }
 
 @media (max-width: 640px) {
+  :root {
+    --font-body: 1.04rem;
+    --font-meta: 0.96rem;
+    --font-label: 0.84rem;
+    --font-title-sm: 1.1rem;
+  }
+
   .app-shell {
     padding: 14px 12px calc(22px + env(safe-area-inset-bottom));
   }
@@ -1005,6 +1024,14 @@ button {
   .page-panel {
     padding: 16px;
     border-radius: 24px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.2rem, 10vw, 2.75rem);
+  }
+
+  .page-header h2 {
+    font-size: clamp(2.02rem, 8.4vw, 2.4rem);
   }
 
   .cta-row,
