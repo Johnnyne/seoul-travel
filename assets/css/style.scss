@@ -1,0 +1,448 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700&display=swap");
+@import "{{ site.theme }}";
+
+:root {
+  --page-bg: #f7f4ee;
+  --paper: rgba(255, 255, 255, 0.88);
+  --paper-strong: #ffffff;
+  --ink: #162031;
+  --muted: #5d6778;
+  --green: #2c7a5c;
+  --green-soft: rgba(44, 122, 92, 0.12);
+  --orange: #d27a42;
+  --orange-soft: rgba(210, 122, 66, 0.14);
+  --blue: #2f4f8b;
+  --blue-soft: rgba(47, 79, 139, 0.12);
+  --line: rgba(29, 48, 77, 0.12);
+  --shadow: 0 20px 60px rgba(27, 39, 71, 0.12);
+  --radius-xl: 30px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(210, 122, 66, 0.12), transparent 24%),
+    radial-gradient(circle at top right, rgba(47, 79, 139, 0.14), transparent 26%),
+    linear-gradient(180deg, #f7f1e8 0%, #f4f7fb 48%, #edf5ef 100%);
+  color: var(--ink);
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+
+.page-header {
+  background:
+    linear-gradient(135deg, rgba(25, 47, 76, 0.96), rgba(42, 106, 88, 0.9) 58%, rgba(210, 122, 66, 0.9)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0));
+  padding: 4.2rem 1rem 6rem;
+}
+
+.project-name {
+  font-family: "Noto Serif TC", serif;
+  font-size: 2.6rem;
+  letter-spacing: 0.02em;
+}
+
+.project-tagline {
+  max-width: 860px;
+  font-size: 1.08rem;
+  opacity: 0.92;
+}
+
+.main-content {
+  max-width: 1100px;
+  padding: 0 1.2rem 4rem;
+  margin-top: -3.8rem;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
+.hero-panel,
+.content-section,
+.decision-note {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.hero-panel {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.88));
+  border-radius: var(--radius-xl);
+  padding: 2.2rem;
+  backdrop-filter: blur(8px);
+}
+
+.eyebrow,
+.kicker,
+.card-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  color: var(--blue);
+  font-size: 0.83rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero-panel h1 {
+  margin: 0.45rem 0 0.9rem;
+  font-family: "Noto Serif TC", serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.18;
+}
+
+.hero-lead {
+  margin: 0;
+  font-size: 1.08rem;
+  color: var(--muted);
+}
+
+.hero-pills,
+.chips,
+.quick-nav,
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hero-pills {
+  margin-top: 1.25rem;
+}
+
+.hero-pills span,
+.chips span {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.48rem 0.9rem;
+  background: rgba(22, 32, 49, 0.06);
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.chips {
+  margin-top: 1rem;
+}
+
+.chips span {
+  background: var(--green-soft);
+  color: var(--green);
+}
+
+.action-row {
+  margin-top: 1.5rem;
+}
+
+.action-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0.8rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper-strong);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.action-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(23, 36, 64, 0.1);
+  border-color: rgba(44, 122, 92, 0.35);
+}
+
+.action-button.primary {
+  background: linear-gradient(135deg, var(--green), #3c9070);
+  border-color: transparent;
+  color: #fff;
+}
+
+.decision-note {
+  margin-top: 1.2rem;
+  padding: 1rem 1.1rem;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--orange-soft), rgba(255, 255, 255, 0.82));
+}
+
+.quick-nav {
+  margin: 1.4rem 0 2rem;
+}
+
+.quick-nav a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.quick-nav a:hover {
+  border-color: rgba(47, 79, 139, 0.4);
+}
+
+.content-section {
+  margin-top: 1.6rem;
+  padding: 1.6rem;
+  border-radius: var(--radius-xl);
+  background: var(--paper);
+  backdrop-filter: blur(6px);
+}
+
+.section-heading {
+  margin-bottom: 1.2rem;
+}
+
+.section-heading h2 {
+  margin: 0.3rem 0 0.4rem;
+  font-family: "Noto Serif TC", serif;
+  font-size: clamp(1.55rem, 2.6vw, 2.25rem);
+}
+
+.section-heading p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.summary-grid,
+.prep-grid,
+.restaurant-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.summary-grid,
+.prep-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.restaurant-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.summary-card,
+.restaurant-card,
+.day-card {
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 12px 26px rgba(27, 39, 71, 0.06);
+}
+
+.summary-card,
+.restaurant-card {
+  padding: 1.2rem;
+}
+
+.summary-card h3,
+.restaurant-card h3 {
+  margin: 0.35rem 0 0.85rem;
+}
+
+.overview-table,
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+}
+
+.overview-table th,
+.overview-table td,
+.schedule-table th,
+.schedule-table td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.overview-table thead,
+.schedule-table thead {
+  background: rgba(47, 79, 139, 0.08);
+}
+
+.overview-table th,
+.schedule-table th {
+  color: var(--ink);
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.overview-table tbody tr:last-child td,
+.schedule-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.day-card {
+  padding: 1.3rem;
+  margin-top: 1rem;
+}
+
+.day-head h3 {
+  margin: 0.45rem 0 0.35rem;
+  font-size: 1.45rem;
+}
+
+.day-head p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.day-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: var(--blue-soft);
+  color: var(--blue);
+  padding: 0.45rem 0.85rem;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 1.1rem;
+}
+
+.info-item {
+  padding: 0.95rem 1rem;
+  border-radius: var(--radius-md);
+  background: rgba(44, 122, 92, 0.07);
+  border: 1px solid rgba(44, 122, 92, 0.12);
+}
+
+.info-item strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.info-item span {
+  color: var(--muted);
+}
+
+.highlight-box {
+  margin-top: 1rem;
+  padding: 1rem 1.05rem;
+  border-left: 4px solid var(--orange);
+  border-radius: 0 16px 16px 0;
+  background: linear-gradient(135deg, rgba(210, 122, 66, 0.1), rgba(255, 255, 255, 0.88));
+}
+
+.restaurant-item {
+  padding: 1rem 0;
+  border-top: 1px dashed var(--line);
+}
+
+.restaurant-item:first-of-type {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.restaurant-item h4 {
+  margin: 0 0 0.35rem;
+  font-size: 1.02rem;
+}
+
+.restaurant-item p {
+  margin: 0.35rem 0 0;
+}
+
+.price-tag {
+  display: inline-flex;
+  margin-left: 0.45rem;
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  background: var(--orange-soft);
+  color: var(--orange);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.dish-line {
+  color: var(--muted);
+}
+
+.clean-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.clean-list li + li {
+  margin-top: 0.45rem;
+}
+
+.main-content strong {
+  color: var(--ink);
+}
+
+.main-content a {
+  color: var(--blue);
+}
+
+@media (max-width: 900px) {
+  .summary-grid,
+  .prep-grid,
+  .restaurant-grid,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .page-header {
+    padding: 3.2rem 1rem 4.6rem;
+  }
+
+  .project-name {
+    font-size: 2rem;
+  }
+
+  .main-content {
+    margin-top: -2.2rem;
+    padding: 0 0.85rem 3rem;
+  }
+
+  .hero-panel,
+  .content-section,
+  .day-card {
+    padding: 1.1rem;
+  }
+
+  .overview-table,
+  .schedule-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .action-button,
+  .quick-nav a {
+    width: 100%;
+  }
+}

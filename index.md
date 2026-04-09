@@ -1,835 +1,819 @@
-# 🇰🇷 首爾親子旅遊景點完整推薦
-
-> **行程規劃**：7天6夜 ｜ **成員**：兩大一小（4.5歲男童）  
-> **最佳旅遊季節**：春季（3-5月）、秋季（9-11月）
-
+---
+layout: default
+title: 首爾親子七日行程計劃書
+description: 2026 年 5 月 9 日至 5 月 15 日，2 大 1 小（4.5 歲）的首爾親子旅行。已將樂天世界改為 Seoul Land，並整理成 GitHub Pages 好讀版網頁。
 ---
 
-## 📋 景點分類總覽
-
-| 類別 | 數量 | 適合年齡 | 體力需求 |
-|------|------|----------|----------|
-| 🎢 主題樂園 | 5 | ⭐⭐⭐⭐⭐ | 高 |
-| 🏛️ 博物館/體驗館 | 10 | ⭐⭐⭐⭐⭐ | 低-中 |
-| 🦁 動物園/水族館 | 4 | ⭐⭐⭐⭐⭐ | 中 |
-| 🏰 歷史文化景點 | 6 | ⭐⭐⭐ | 中 |
-| 🌳 公園/自然景點 | 7 | ⭐⭐⭐⭐⭐ | 低-中 |
-| 🛍️ 購物/美食區 | 5 | ⭐⭐⭐ | 中 |
-| 🎭 表演/娛樂 | 4 | ⭐⭐⭐⭐ | 低 |
-| ⛸️ 室內滑冰場 | 3 | ⭐⭐⭐⭐ | 中 |
-| 🏎️ 賽車/F1相關 | 4 | ⭐⭐⭐⭐⭐ | 低-中 |
-| ⚽ 足球相關景點 | 3 | ⭐⭐⭐⭐ | 低-中 |
-
----
-
-## 🎢 主題樂園
-
-### 1. 樂天世界 Lotte World ⭐⭐⭐⭐⭐
-- **地點**：蠶室站（2/8號線）
-- **特色**：世界最大室內主題樂園，有室內「探險世界」和室外「魔幻島」
-- **適合4.5歲**：旋轉木馬、小火車、氣球飛行、室內遊樂設施
-- **建議時間**：整天（6-8小時）
-- **門票**：成人約 ₩62,000 / 兒童 ₩48,000
-- **優點**：室內為主，不受天氣影響；有專屬幼兒區
-- **貼士**：購買快速通關券可節省排隊時間
-
-### 2. 愛寶樂園 Everland ⭐⭐⭐⭐⭐
-- **地點**：龍仁市（需搭接駁車，距首爾約1.5小時）
-- **特色**：韓國最大主題樂園，有動物王國、遊樂設施
-- **適合4.5歲**：動物園區、旋轉木馬、魔幻樂園、兒童專區
-- **建議時間**：整天
-- **門票**：成人約 ₩58,000 / 兒童 ₩46,000
-- **優點**：有Safari動物園、四季花園
-- **貼士**：建議搭配首爾出發一日遊行程
-
-### 3. 首爾樂園 Seoul Land ⭐⭐⭐⭐
-- **地點**：大公園站（4號線）
-- **特色**：經典老牌樂園，規模適中
-- **適合4.5歲**：多數設施都可搭乘
-- **建議時間**：半天-整天
-- **門票**：較便宜，約 ₩36,000
-- **優點**：遊客較少、票價親民、旁邊有動物園
-
-### 4. 樂天世界水族館 Lotte World Aquarium ⭐⭐⭐⭐
-- **地點**：蠶室站（樂天世界塔B1）
-- **特色**：650種海洋生物、觸摸池
-- **適合4.5歲**：海洋隧道、企鵝區、觸摸體驗
-- **建議時間**：2-3小時
-- **優點**：可與樂天世界塔、樂天世界同日安排
-
-### 5. 兒童大公園遊樂區 Children's Grand Park ⭐⭐⭐⭐
-- **地點**：兒童大公園站（7號線）
-- **特色**：免費入園，有付費遊樂設施
-- **適合4.5歲**：幾乎所有設施
-- **建議時間**：3-5小時
-- **優點**：票價便宜、有動物園
-
----
-
-## 🏛️ 博物館 / 體驗館
-
-### 1. 國立兒童博物館 National Children's Museum ⭐⭐⭐⭐⭐
-- **地點**：景福宮站（3號線）
-- **特色**：專為兒童設計的互動博物館
-- **適合4.5歲**：完美適合！各種觸摸、體驗展覽
-- **建議時間**：2-3小時
-- **優點**：教育性高、免費
-
-### 2. 三星兒童博物館 Samsung Children's Museum ⭐⭐⭐⭐⭐
-- **地點**：蠶室（樂天世界附近）
-- **特色**：科技互動體驗、角色扮演區
-- **適合4.5歲**：非常適合！有廚房、建築、藝術區
-- **建議時間**：2-3小時
-- **門票**：約 ₩12,000
-
-### 3. 泡菜博物館 Kimchi Museum ⭐⭐⭐⭐
-- **地點**：COEX Mall 內
-- **特色**：可DIY製作泡菜
-- **適合4.5歲**：動手體驗有趣
-- **建議時間**：1-2小時
-
-### 4. 國立中央博物館兒童館 ⭐⭐⭐⭐⭐
-- **地點**：二村站（4號線）
-- **特色**：專為兒童設計的展區
-- **適合4.5歲**：互動展覽多
-- **建議時間**：2-3小時
-- **優點**：免費
-
-### 5. Running Man 體驗館 ⭐⭐⭐⭐
-- **地點**：鐘閣站附近
-- **特色**：綜藝節目主題體驗館
-- **適合4.5歲**：部分項目適合（需家長陪同）
-- **建議時間**：1.5-2小時
-
-### 6. 戰爭紀念館 War Memorial ⭐⭐⭐
-- **地點**：三角地站
-- **特色**：戶外展示飛機、坦克
-- **適合4.5歲**：男孩會喜歡看飛機坦克
-- **建議時間**：1-2小時
-- **優點**：免費
-
-### 7. 錢幣博物館 Bank of Korea Museum ⭐⭐⭐
-- **地點**：明洞站
-- **特色**：錢幣歷史、印鈔體驗
-- **建議時間**：1小時
-- **優點**：免費
-
-### 8. 警察博物館 Police Museum ⭐⭐⭐⭐
-- **地點**：安國站
-- **特色**：可穿警察制服拍照、騎警用摩托車
-- **適合4.5歲**：男孩會很喜歡！
-- **建議時間**：1-1.5小時
-- **優點**：免費
-
-### 9. 消防博物館 Fire Museum ⭐⭐⭐⭐
-- **地點**：新設洞
-- **特色**：消防車體驗、滅火模擬
-- **適合4.5歲**：非常吸引男孩
-- **建議時間**：1-1.5小時
-- **優點**：免費
-
-### 10. 首爾動畫中心 Seoul Animation Center ⭐⭐⭐
-- **地點**：明洞附近
-- **特色**：動畫展覽、配音體驗
-- **建議時間**：1-2小時
-
----
-
-## 🦁 動物園 / 水族館
-
-### 1. 首爾大公園動物園 Seoul Grand Park Zoo ⭐⭐⭐⭐⭐
-- **地點**：大公園站（4號線）
-- **特色**：韓國最大動物園，動物種類多
-- **適合4.5歲**：非常適合！有大象、獅子、長頸鹿
-- **建議時間**：3-5小時
-- **門票**：成人 ₩5,000 / 兒童 ₩3,000
-- **優點**：可搭纜車、有主題花園
-
-### 2. 兒童大公園動物園 ⭐⭐⭐⭐
-- **地點**：兒童大公園站
-- **特色**：規模較小但免費
-- **適合4.5歲**：完全適合
-- **建議時間**：2-3小時
-- **優點**：免費入園
-
-### 3. COEX 水族館 COEX Aquarium ⭐⭐⭐⭐
-- **地點**：三成站（2號線）
-- **特色**：都市中的大型水族館
-- **適合4.5歲**：觸摸池、美人魚表演
-- **建議時間**：2-3小時
-- **門票**：成人約 ₩28,000 / 兒童 ₩24,000
-
-### 4. 63大廈水族館 63 Aqua Planet ⭐⭐⭐⭐
-- **地點**：汝矣島
-- **特色**：觀景台+水族館組合
-- **建議時間**：2-3小時
-
----
-
-## 🏰 歷史文化景點
-
-### 1. 景福宮 + 韓服體驗 ⭐⭐⭐⭐⭐
-- **地點**：景福宮站（3號線）
-- **特色**：穿韓服免費入宮、拍美照
-- **適合4.5歲**：小朋友穿韓服超可愛！
-- **建議時間**：2-3小時
-- **貼士**：租韓服約 ₩15,000-30,000/2小時
-
-### 2. 昌德宮 + 秘苑 ⭐⭐⭐
-- **地點**：安國站
-- **特色**：世界文化遺產、後花園漂亮
-- **建議時間**：2-3小時
-- **注意**：秘苑需預約導覽
-
-### 3. 北村韓屋村 ⭐⭐⭐⭐
-- **地點**：安國站
-- **特色**：傳統韓屋街道、拍照聖地
-- **適合4.5歲**：散步為主，路程不長
-- **建議時間**：1-2小時
-- **優點**：免費
-
-### 4. 南山韓屋村 ⭐⭐⭐⭐
-- **地點**：忠武路站
-- **特色**：免費韓屋村、有傳統遊戲體驗
-- **適合4.5歲**：可體驗踢毽子、投壺
-- **建議時間**：1-2小時
-- **優點**：免費、人較少
-
-### 5. N首爾塔 ⭐⭐⭐⭐
-- **地點**：南山
-- **特色**：首爾地標、夜景漂亮
-- **適合4.5歲**：搭纜車上山有趣
-- **建議時間**：2小時
-- **貼士**：傍晚上去可看日落+夜景
-
-### 6. 仁寺洞 ⭐⭐⭐
-- **地點**：安國站
-- **特色**：傳統文化街、手工藝品
-- **建議時間**：1-2小時
-
----
-
-## 🌳 公園 / 自然景點
-
-### 1. 漢江公園（汝矣島/盤浦） ⭐⭐⭐⭐⭐
-- **地點**：多個站點可達
-- **特色**：野餐、騎腳踏車、彩虹噴泉（盤浦）
-- **適合4.5歲**：奔跑玩耍、騎車
-- **建議時間**：2-4小時
-- **優點**：免費、租借腳踏車便宜
-- **貼士**：可外送炸雞到漢江野餐
-
-### 2. 首爾林 Seoul Forest ⭐⭐⭐⭐⭐
-- **地點**：首爾林站（盆唐線）
-- **特色**：餵鹿、大草坪、兒童遊樂區
-- **適合4.5歲**：餵小鹿超療癒！
-- **建議時間**：2-3小時
-- **優點**：免費
-
-### 3. 藍天公園 Haneul Park ⭐⭐⭐⭐
-- **地點**：世界盃競技場站
-- **特色**：秋天芒草超美、可放風箏
-- **適合4.5歲**：開闊草地奔跑
-- **建議時間**：1-2小時
-- **注意**：需爬坡或搭接駁車
-
-### 4. 奧林匹克公園 ⭐⭐⭐⭐
-- **地點**：夢村土城站（8號線）
-- **特色**：大草坪、戶外雕塑
-- **適合4.5歲**：放風箏、野餐
-- **建議時間**：2-3小時
-- **優點**：免費、寬敞
-
-### 5. 北漢山國家公園 ⭐⭐
-- **地點**：北漢山站
-- **特色**：登山健行
-- **適合4.5歲**：較辛苦，除非選簡單路線
-- **建議時間**：半天
-
-### 6. 南怡島 Nami Island ⭐⭐⭐⭐
-- **地點**：加平（距首爾約1.5小時）
-- **特色**：銀杏大道、冬季戀歌拍攝地
-- **適合4.5歲**：騎車、玩沙、看松鼠
-- **建議時間**：半天-整天
-- **貼士**：可搭配小法國村、晨靜樹木園
-
-### 7. 小法國村 Petite France ⭐⭐⭐⭐
-- **地點**：加平
-- **特色**：小王子主題、彩色歐風建築
-- **適合4.5歲**：拍照可愛
-- **建議時間**：1-2小時
-
----
-
-## ⛸️ 室內滑冰場
-
-### 1. 首爾廣場滑冰場 Seoul Plaza Ice Rink ⭐⭐⭐⭐⭐
-- **地點**：市廳站（1/2號線）首爾廣場
-- **營業期間**：每年12月中旬～2月初（**2025.12.19 ~ 2026.02.08**）
-- **特色**：首爾市中心戶外滑冰場，冬季限定
-- **適合4.5歲**：有兒童專用滑冰輔助器
-- **建議時間**：1-2小時
-- **門票**：約 ₩1,000（非常便宜！含冰鞋租借）
-- **優點**：票價超親民、位置方便
-- **注意**：⚠️ **4月中旬已結束營業**，冬季限定
-
-### 2. 樂天世界室內滑冰場 Lotte World Ice Rink ⭐⭐⭐⭐⭐
-- **地點**：蠶室站（樂天世界內）
-- **營業期間**：**全年開放**
-- **特色**：位於樂天世界探險世界內的室內滑冰場
-- **適合4.5歲**：有兒童輔助器、教練可預約
-- **建議時間**：1-2小時
-- **門票**：樂天世界門票內含 或 單獨購買約 ₩18,000
-- **優點**：全年無休、搭配樂天世界行程超方便
-- **強烈推薦**：✅ **4月也可以滑冰！**
-
-### 3. 奧林匹克公園滑冰場 Olympic Park Ice Rink ⭐⭐⭐⭐
-- **地點**：夢村土城站（8號線）奧林匹克公園內
-- **營業期間**：冬季限定（12月～2月）
-- **特色**：寬敞戶外滑冰場
-- **適合4.5歲**：環境舒適
-- **建議時間**：1-2小時
-- **注意**：⚠️ **4月中旬已結束營業**
-
-> 💡 **4月中旬滑冰建議**：只有**樂天世界室內滑冰場**全年開放，強烈推薦！
-
----
-
-## 🏎️ 賽車 / F1 相關景點（男孩最愛！）
-
-### 1. 樂天世界賽車體驗 Lotte World Racing ⭐⭐⭐⭐
-- **地點**：蠶室站（樂天世界內）
-- **特色**：室內兒童賽車設施、模擬駕駛
-- **適合4.5歲**：有適合幼兒的迷你賽車
-- **建議時間**：30分鐘-1小時
-- **優點**：包含在樂天世界門票內
-
-### 2. 愛寶樂園賽車體驗 Everland Racing Coaster ⭐⭐⭐⭐
-- **地點**：愛寶樂園（龍仁）
-- **特色**：賽車主題雲霄飛車、兒童電動車
-- **適合4.5歲**：兒童駕駛區有小型電動車
-- **建議時間**：30分鐘-1小時
-
-### 3. 韓國汽車博物館 Korea Automobile Museum ⭐⭐⭐⭐⭐
-- **地點**：高陽市（距首爾約40分鐘車程）
-- **特色**：展示各種名車、賽車、老爺車，有模擬駕駛體驗
-- **適合4.5歲**：男孩的天堂！可以坐進真車拍照
-- **建議時間**：2-3小時
-- **門票**：成人 ₩8,000 / 兒童 ₩6,000
-- **優點**：車迷必訪、互動體驗多
-- **貼士**：可搭配一山湖水公園行程
-
-### 4. 現代汽車體驗中心 Hyundai Motorstudio ⭐⭐⭐⭐
-- **地點**：
-  - **高陽店**：一山（規模最大、最推薦）
-  - **首爾店**：江南區論峴洞
-- **特色**：現代汽車品牌體驗館、展示最新車款、互動科技展覽
-- **適合4.5歲**：可以坐進展示車、有兒童互動區
-- **建議時間**：1.5-2小時
-- **門票**：免費入場（部分體驗需預約）
-- **優點**：免費！環境超棒
-
-### 5. 首爾賽車場 / Go Kart 體驗 ⭐⭐⭐
-- **地點**：首爾近郊（多個地點）
-- **特色**：室內卡丁車體驗
-- **適合4.5歲**：⚠️ 多數卡丁車需 **7歲以上** 或 **身高120cm以上**
-- **建議**：4.5歲可能無法自駕，但可與爸媽共乘
-- **替代方案**：樂天世界、愛寶樂園內的兒童電動車更適合
-
-> 🏁 **給4.5歲男孩的F1體驗建議**：
-> - ✅ **韓國汽車博物館** - 可以看真車、坐進去拍照
-> - ✅ **現代Motorstudio** - 免費、互動體驗多
-> - ✅ **樂天世界/愛寶樂園兒童電動車** - 可以自己開！
-
----
-
-## ⚽ 足球相關景點
-
-### 1. 首爾世界盃競技場 Seoul World Cup Stadium ⭐⭐⭐⭐⭐
-- **地點**：世界盃競技場站（6號線）麻浦區
-- **特色**：2002年世界盃主場館，韓國足球聖地
-- **容納人數**：66,704人
-- **球場導覽**：可參觀球場內部、更衣室、貴賓席
-- **適合4.5歲**：男孩會愛！可以走進真正的足球場
-- **建議時間**：1-1.5小時（導覽）
-- **門票**：導覽約 ₩3,000
-- **常駐球隊**：**FC Seoul（首爾FC）**- K League 1 球隊
-
-### 2. K League 足球比賽觀賽 ⭐⭐⭐⭐⭐
-- **聯賽**：K League 1（韓國頂級足球聯賽）
-- **賽季**：每年 **2月底/3月～11月**
-
-#### 📅 4月中旬比賽資訊（2026年）
-> **好消息！4月正值 K League 賽季中，有機會看到現場比賽！**
-
-| 首爾地區球隊 | 主場 | 說明 |
-|--------------|------|------|
-| **FC Seoul 首爾FC** | 首爾世界盃競技場 | 首爾代表隊，主場氣氛超棒 |
-| **FC 安養** | 安養綜合運動場 | 首爾近郊，K League 2 |
-
-- **如何查詢比賽日期**：
-  - 官網：[K League 官網](https://www.kleague.com/)
-  - 建議出發前1-2週查詢確切賽程
-  
-- **購票方式**：
-  - 官網購票
-  - Interpark / Yes24 等韓國售票網站
-  - 現場購票（熱門比賽建議預購）
-
-- **門票價格**：約 ₩15,000-50,000（依座位區）
-- **適合4.5歲**：✅ 非常適合！韓國球場對親子友善
-- **貼士**：
-  - 氣氛熱烈但不會太瘋狂，適合帶小孩
-  - 可買球隊周邊商品給小朋友
-  - 建議購買有遮蔽的座位
-
-### 3. 足球主題咖啡廳/商店
-- **FC Seoul 官方商店**：世界盃競技場內
-- **特色**：球衣、足球周邊商品
-- **適合4.5歲**：買個小足球或球衣當紀念品
-
----
-
-> ⚽ **4月中旬足球觀賽總結**：
-> - ✅ K League 賽季進行中，很有機會看到比賽
-> - ✅ 建議查詢 FC Seoul 主場賽程
-> - ✅ 世界盃競技場即使沒比賽也值得參觀
-> - 📍 世界盃競技場旁還有 **藍天公園**、**World Cup Mall** 可順遊
-
----
-
-## 🛍️ 購物 / 美食區
-
-### 1. 明洞 Myeongdong ⭐⭐⭐⭐
-- **地點**：明洞站（4號線）/ 乙支路入口站（2號線）
-- **特色**：最熱鬧購物街、美妝店多、換匯方便
-- **適合4.5歲**：路邊小吃吸引人（雞蛋糕、烤魷魚）
-- **建議時間**：2-4小時
-- **必逛**：
-  - LINE FRIENDS 旗艦店（超大熊大）
-  - Olive Young（韓國屈臣氏）
-  - 樂天百貨/新世界百貨
-- **親子友善**：⭐⭐⭐（人多擁擠，推車較難）
-
-### 2. 弘大 Hongdae ⭐⭐⭐⭐⭐
-- **地點**：弘大入口站（2號線/機場線）
-- **特色**：年輕人聚集地、街頭表演、獨立品牌多
-- **適合4.5歲**：週末有兒童跳蚤市場、街頭表演有趣
-- **建議時間**：2-4小時
-- **必逛**：
-  - **Kakao Friends 旗艦店**（超大Ryan！）
-  - **延南洞**（文青咖啡廳、壁畫街）
-  - AK & Plaza 弘大店
-- **親子友善**：⭐⭐⭐⭐（步行區多，較舒適）
-
-### 3. 東大門 DDP ⭐⭐⭐
-- **地點**：東大門歷史文化公園站（2/4/5號線）
-- **特色**：未來感建築、夜間購物、設計市集
-- **適合4.5歲**：建築造型有趣可拍照
-- **建議時間**：2-3小時
-- **必逛**：
-  - DDP 設計廣場（拍照聖地）
-  - 現代 City Outlet
-- **注意**：批發市場不太適合親子
-
-### 4. COEX Mall ⭐⭐⭐⭐⭐ 【強烈推薦】
-- **地點**：三成站（2號線）
-- **特色**：首爾最大地下購物中心、星空圖書館超美
-- **適合4.5歲**：有水族館、電影院、玩具店
-- **建議時間**：3-5小時
-- **必逛**：
-  - **星空圖書館 Starfield Library**（網美必拍）
-  - **COEX 水族館**
-  - **泡菜博物館**
-  - Mega Box 電影院
-  - 玩具反斗城 Toys"R"Us
-- **親子友善**：⭐⭐⭐⭐⭐（室內、有電梯、設施完善）
-- **貼士**：下雨天備案首選！
-
-### 5. 樂天世界 Mall ⭐⭐⭐⭐⭐ 【強烈推薦】
-- **地點**：蠶室站（2/8號線）
-- **特色**：購物+美食+樂天塔觀景，一站式體驗
-- **適合4.5歲**：有很多親子餐廳、玩具店
-- **建議時間**：2-4小時
-- **必逛**：
-  - **樂天世界塔 Seoul Sky**（123樓觀景台）
-  - **樂天世界水族館**
-  - 樂天百貨
-  - Avenuel（精品區）
-  - 玩具店、童裝店
-- **親子友善**：⭐⭐⭐⭐⭐（設施新穎、空間寬敞）
-
-### 6. IFC Mall 汝矣島 ⭐⭐⭐⭐
-- **地點**：汝矣島站（5/9號線）
-- **特色**：高檔購物中心、美食街優質
-- **適合4.5歲**：空間寬敞舒適
-- **建議時間**：2-3小時
-- **必逛**：
-  - CGV 電影院
-  - 美食街（選擇多）
-- **親子友善**：⭐⭐⭐⭐⭐（人少、環境佳）
-- **貼士**：可搭配漢江公園行程
-
-### 7. Starfield COEX Mall / Starfield 高陽 ⭐⭐⭐⭐
-- **Starfield 高陽**位於首爾近郊，規模更大
-- **特色**：超大型購物中心、有室內主題公園
-- **適合4.5歲**：有兒童遊樂區
-- **建議時間**：半天
-
----
-
-## 🧸 親子購物必買清單
-
-### 👦 4.5歲男孩推薦購物
-
-| 品項 | 推薦店家 | 地點 | 說明 |
-|------|----------|------|------|
-| **Kakao Friends 周邊** | Kakao Friends Store | 弘大/江南 | Ryan玩偶、文具 |
-| **LINE FRIENDS 周邊** | LINE Friends Store | 明洞/弘大 | 熊大、莎莉 |
-| **韓國童裝** | ZARA Kids、H&M Kids | 各大百貨 | 款式可愛便宜 |
-| **樂高 LEGO** | 樂高專賣店 | 樂天世界Mall | 韓國限定款 |
-| **玩具** | 玩具反斗城 | COEX Mall | 種類齊全 |
-| **韓國零食** | 便利店/超市 | 到處都有 | 養樂多軟糖、香蕉牛奶 |
-| **兒童韓服** | 傳統市場/仁寺洞 | 仁寺洞 | 小王子造型 |
-| **足球周邊** | FC Seoul Shop | 世界盃競技場 | 球衣、小足球 |
-
-### 👨‍👩‍👦 親子必買
-
-| 品項 | 推薦店家 | 說明 |
-|------|----------|------|
-| **韓國美妝** | Olive Young | 面膜、護膚品 |
-| **韓國零食伴手禮** | 樂天超市/E-mart | 泡麵、海苔、餅乾 |
-| **保溫杯/餐具** | Starbucks Korea | 韓國限定款超美 |
-| **韓國茶/人蔘** | 傳統市場 | 送長輩 |
-
----
-
-## 🏪 超市/便利店購物
-
-### 大型超市（採買伴手禮首選）
-| 超市 | 地點 | 營業時間 | 說明 |
-|------|------|----------|------|
-| **樂天超市 蠶室店** | 蠶室站 | 10:00-24:00 | 超大！離樂天世界近 |
-| **E-mart 龍山店** | 龍山站 | 10:00-23:00 | 交通方便 |
-| **Homeplus 合井店** | 合井站 | 10:00-24:00 | 弘大附近 |
-
-> ⚠️ **注意**：大型超市每月第2、4個週日公休！
-
-### 便利店必買（小孩最愛）
-- 🍌 香蕉牛奶（Banana Milk）
-- 🍫 巧克力派
-- 🍬 養樂多軟糖
-- 🧀 起司條
-- 🍜 小杯泡麵
-- 🍦 Melona 哈密瓜冰棒
-
----
-
-## 💳 購物實用資訊
-
-### 退稅 Tax Refund
-- 單筆消費滿 **₩15,000** 可退稅
-- 退稅約 **10%**
-- 機場退稅櫃台：仁川機場 Gate 28 附近
-- **建議**：使用自動退稅機較快
-
-### 付款方式
-- 信用卡普及率高（Visa/Mastercard）
-- T-money 卡可在便利店消費
-- 建議帶些韓元現金（傳統市場用）
-
-### 匯率
-- 明洞換匯所匯率最好
-- 推薦：大使館換匯所、一品香換匯所
-
----
-
-## 🎭 表演 / 娛樂
-
-### 1. NANTA 亂打秀 ⭐⭐⭐⭐⭐
-- **地點**：明洞/弘大
-- **特色**：無對白廚房打擊秀，超精彩
-- **適合4.5歲**：全程無需語言，小孩看得懂
-- **建議時間**：1.5小時
-- **門票**：約 ₩50,000-70,000
-- **強烈推薦**：親子必看！
-
-### 2. HERO 塗鴉秀 ⭐⭐⭐⭐⭐
-- **地點**：鐘路
-- **特色**：現場繪畫表演，有互動
-- **適合4.5歲**：視覺效果佳，小孩喜歡
-- **建議時間**：1.5小時
-
-### 3. Kakao Friends Store ⭐⭐⭐⭐
-- **地點**：弘大/江南
-- **特色**：超大Ryan公仔、週邊商品
-- **適合4.5歲**：男孩喜歡
-- **建議時間**：30分鐘-1小時
-
-### 4. LINE FRIENDS Store ⭐⭐⭐⭐
-- **地點**：明洞/弘大
-- **特色**：巨型熊大、莎莉
-- **適合4.5歲**：拍照打卡
-- **建議時間**：30分鐘-1小時
-
----
-
-## 🍽️ 親子友善美食推薦
-
-### 韓式料理
-| 餐點 | 兒童接受度 | 說明 |
-|------|------------|------|
-| 炸雞 | ⭐⭐⭐⭐⭐ | 必吃！推薦橋村、BHC |
-| 韓式烤肉 | ⭐⭐⭐⭐⭐ | 小孩愛吃肉 |
-| 人蔘雞湯 | ⭐⭐⭐⭐ | 溫和口味 |
-| 紫菜包飯 | ⭐⭐⭐⭐⭐ | 不辣、方便吃 |
-| 海鮮煎餅 | ⭐⭐⭐⭐ | 香酥好入口 |
-| 辣炒年糕 | ⭐⭐ | 較辣，可點不辣版 |
-| 冷麵 | ⭐⭐⭐ | 看小孩接受度 |
-| 部隊鍋 | ⭐⭐⭐ | 有香腸起司，小孩喜歡 |
-
-### 親子餐廳推薦
-- **樂天世界 Mall** - 多家親子餐廳
-- **COEX Mall** - 美食街選擇多
-- **汝矣島 IFC Mall** - 環境舒適
-
----
-
-## 📍 依區域分類
-
-### 蠶室/江南區（推薦住宿區）
-- 樂天世界
-- 樂天世界水族館
-- 樂天世界塔
-- 樂天世界 Mall
-- 三星兒童博物館
-- COEX Mall + 水族館
-
-### 市中心（鐘路/中區）
-- 景福宮
-- 北村韓屋村
-- 仁寺洞
-- 明洞
-- 南山韓屋村
-- N首爾塔
-- Running Man 體驗館
-- NANTA 亂打秀
-
-### 弘大/麻浦區
-- 弘大商圈
-- Kakao Friends
-- 延南洞
-
-### 汝矣島
-- 漢江公園
-- 63大廈
-- IFC Mall
-
-### 首爾東部
-- 兒童大公園
-- 首爾林
-- 建大商圈
-
-### 首爾南部（大公園站）
-**首爾大公園 Seoul Grand Park** 是一個大型綜合園區，包含三大主要設施：
-- 🦁 **首爾動物園** - 韓國最大動物園（3000+動物）
-- 🎢 **首爾樂園 Seoul Land** - 經典主題樂園（約40種遊樂設施）
-- 🎨 **國立現代美術館 MMCA 果川館** - 韓國現代藝術博物館
-
-> 💡 **Wondr Park（워너파크）**：位於首爾大公園附近的新開幕室內主題公園，適合親子遊玩，提供互動體驗設施。建議出發前查詢最新營業資訊。
-
-### 近郊（一日遊）
-- 愛寶樂園
-- 南怡島
-- 小法國村
-
----
-
-## 📅 7天6夜行程建議架構
-
-| 天數 | 主題 | 建議景點 |
-|------|------|----------|
-| Day 1 | 抵達+輕鬆逛 | 明洞、N首爾塔 |
-| Day 2 | 主題樂園日 | 樂天世界（整天）|
-| Day 3 | 文化體驗日 | 景福宮韓服+北村+仁寺洞 |
-| Day 4 | 博物館日 | 兒童博物館+漢江公園野餐 |
-| Day 5 | 近郊一日遊 | 南怡島+小法國村 或 愛寶樂園 |
-| Day 6 | 動物園+購物 | 首爾大公園/兒童大公園+COEX |
-| Day 7 | 購物+返程 | 弘大/明洞購物 |
-
----
-
-## 💡 4.5歲男童特別推薦 TOP 15
-
-### 🏆 原有精選
-1. 🎢 **樂天世界** - 室內遊樂設施多，不怕天氣
-2. 👮 **警察博物館** - 穿制服、騎摩托車
-3. 🚒 **消防博物館** - 消防車體驗
-4. 🦁 **首爾大公園動物園** - 看獅子大象
-5. 🦌 **首爾林** - 餵小鹿
-6. 🏰 **景福宮穿韓服** - 變身小王子
-7. 🎭 **NANTA 亂打秀** - 無語言障礙超好看
-8. 🚴 **漢江公園** - 騎車放電
-9. 🐧 **COEX 水族館** - 觸摸海洋生物
-10. 🧒 **三星兒童博物館** - 互動體驗超多
-
-### 🆕 新增推薦（滑冰/賽車/足球）
-11. ⛸️ **樂天世界室內滑冰場** - 全年開放，4月也能滑！
-12. 🏎️ **韓國汽車博物館** - 看真車、坐進去拍照
-13. 🚗 **現代Motorstudio** - 免費體驗最新車款
-14. ⚽ **首爾世界盃競技場** - 走進真正的足球場
-15. ⚽ **K League 足球賽** - 4月有比賽可看！
-
----
-
-## 📝 實用資訊
-
-### 交通
-- **T-money 卡**：便利店購買，可搭地鐵公車
-- **兒童票**：6歲以下多數景點免費或半價
-- **嬰兒車**：地鐵站多有電梯，但要找一下
-
-### 🏨 住宿建議區域
-
-#### 🏆 親子首選區域
-
-| 區域 | 親子推薦度 | 特色 | 優點 | 缺點 | 房價參考 |
-|------|------------|------|------|------|----------|
-| **蠶室/松坡** | ⭐⭐⭐⭐⭐ | 樂天世界旁 | 近樂天世界、樂天Mall、水族館，親子設施最集中 | 離市中心稍遠 | 中高價 |
-| **江南** | ⭐⭐⭐⭐⭐ | 高級商圈 | 環境乾淨、飯店品質高、COEX Mall、三星兒童博物館 | 價格較高 | 高價 |
-
-#### 🎯 交通便利區域
-
-| 區域 | 親子推薦度 | 特色 | 優點 | 缺點 | 房價參考 |
-|------|------------|------|------|------|----------|
-| **明洞** | ⭐⭐⭐⭐ | 購物天堂 | 交通最方便、購物超便利、美食多、換匯方便 | 人潮擁擠、推嬰兒車較辛苦 | 中高價 |
-| **東大門** | ⭐⭐⭐ | 購物批發 | 交通便利、夜間購物、房價較低 | 環境較吵雜、不太適合帶幼童 | 中低價 |
-| **首爾站/龍山** | ⭐⭐⭐⭐ | 交通樞紐 | KTX便利、往機場快、E-mart超市 | 景點較少 | 中價 |
-
-#### 🎨 年輕活力區域
-
-| 區域 | 親子推薦度 | 特色 | 優點 | 缺點 | 房價參考 |
-|------|------------|------|------|------|----------|
-| **弘大** | ⭐⭐⭐⭐ | 年輕潮流 | 餐廳咖啡廳多、Kakao Friends、機場線直達、氣氛熱鬧 | 晚上較吵、酒吧多 | 中價 |
-| **延南洞/合井** | ⭐⭐⭐⭐ | 文青風格 | 弘大旁但較安靜、咖啡廳多、環境舒適 | 步行到地鐵稍遠 | 中價 |
-| **梨泰院** | ⭐⭐⭐ | 異國風情 | 異國餐廳多、國際化 | 夜店酒吧區、不太適合幼童 | 中價 |
-
-#### 🏛️ 歷史文化區域
-
-| 區域 | 親子推薦度 | 特色 | 優點 | 缺點 | 房價參考 |
-|------|------------|------|------|------|----------|
-| **鐘路/安國** | ⭐⭐⭐⭐ | 傳統韓屋 | 近景福宮、北村、仁寺洞，文化體驗方便 | 餐廳選擇較少 | 中價 |
-| **市廳/光化門** | ⭐⭐⭐⭐ | 市中心 | 交通超便利、景福宮近、觀光資源豐富 | 商業區氛圍 | 中高價 |
-
----
-
-#### 📊 親子住宿區域總評比
-
-| 排名 | 區域 | 適合類型 | 重點推薦理由 |
-|------|------|----------|--------------|
-| 🥇 | **蠶室** | 樂園控家庭 | 樂天世界走路到！玩累直接回房休息 |
-| 🥈 | **江南** | 品質優先家庭 | 環境最佳、COEX超好逛、飯店設施棒 |
-| 🥉 | **明洞** | 購物+便利 | 交通王、買東西超方便、美食多 |
-| 4 | **弘大** | 氣氛體驗 | 年輕有活力、機場線直達 |
-| 5 | **鐘路** | 文化體驗 | 穿韓服逛宮殿最方便 |
-
----
-
-#### 💡 親子住宿小提醒
-- ✅ **選擇有電梯的飯店**（老舊韓屋民宿可能沒有）
-- ✅ **確認是否提供嬰兒床/加床**
-- ✅ **公寓式酒店**適合親子（有廚房可煮副食品）
-- ✅ **蠶室、江南** 的飯店較新，親子設施較完善
-- ⚠️ 避免選擇 **梨泰院、東大門** 夜生活區的飯店
-
-### 注意事項
-- 韓國餐廳多數有**兒童餐椅**
-- 多數景點有**哺乳室、尿布台**
-- 冬天室內外溫差大，注意穿脫
-- 很多景點**週一休館**
-
----
-
-## �️ Google Maps 景點地圖
-
-### 📍 一鍵查看所有景點
-**[👉 首爾親子景點總覽地圖](https://www.google.com/maps/dir/Lotte+World,+Seoul/Gyeongbokgung+Palace/Seoul+World+Cup+Stadium/COEX+Mall/Seoul+Grand+Park+Zoo/Children's+Grand+Park+Seoul/Seoul+Forest/N+Seoul+Tower/@37.5326,126.9780,11z)**
-
----
-
-### 🎢 主題樂園
-| 景點 | Google Maps |
-|------|-------------|
-| 樂天世界 | [📍 查看地圖](https://www.google.com/maps/search/Lotte+World+Seoul) |
-| 愛寶樂園 | [📍 查看地圖](https://www.google.com/maps/search/Everland+Korea+Yongin) |
-| 首爾樂園 | [📍 查看地圖](https://www.google.com/maps/search/Seoul+Land+Gwacheon) |
-| 兒童大公園 | [📍 查看地圖](https://www.google.com/maps/search/Children's+Grand+Park+Seoul) |
-
-### 🏛️ 博物館/體驗館
-| 景點 | Google Maps |
-|------|-------------|
-| 國立兒童博物館 | [📍 查看地圖](https://www.google.com/maps/search/National+Children's+Museum+Seoul) |
-| 三星兒童博物館 | [📍 查看地圖](https://www.google.com/maps/search/Samsung+Children's+Museum+Seoul) |
-| 國立中央博物館 | [📍 查看地圖](https://www.google.com/maps/search/National+Museum+of+Korea+Seoul) |
-| 警察博物館 | [📍 查看地圖](https://www.google.com/maps/search/Korean+National+Police+Museum) |
-| 消防博物館 | [📍 查看地圖](https://www.google.com/maps/search/Seoul+Fire+Museum) |
-| 戰爭紀念館 | [📍 查看地圖](https://www.google.com/maps/search/War+Memorial+of+Korea) |
-| 韓國汽車博物館 | [📍 查看地圖](https://www.google.com/maps/search/Korea+Automobile+Museum+Goyang) |
-| 現代Motorstudio高陽 | [📍 查看地圖](https://www.google.com/maps/search/Hyundai+Motorstudio+Goyang) |
-
-### 🦁 動物園/水族館
-| 景點 | Google Maps |
-|------|-------------|
-| 首爾大公園動物園 | [📍 查看地圖](https://www.google.com/maps/search/Seoul+Grand+Park+Zoo) |
-| COEX水族館 | [📍 查看地圖](https://www.google.com/maps/search/COEX+Aquarium+Seoul) |
-| 樂天世界水族館 | [📍 查看地圖](https://www.google.com/maps/search/Lotte+World+Aquarium) |
-| 63水族館 | [📍 查看地圖](https://www.google.com/maps/search/Aqua+Planet+63+Seoul) |
-
-### 🏰 歷史文化景點
-| 景點 | Google Maps |
-|------|-------------|
-| 景福宮 | [📍 查看地圖](https://www.google.com/maps/search/Gyeongbokgung+Palace) |
-| 昌德宮 | [📍 查看地圖](https://www.google.com/maps/search/Changdeokgung+Palace) |
-| 北村韓屋村 | [📍 查看地圖](https://www.google.com/maps/search/Bukchon+Hanok+Village) |
-| 南山韓屋村 | [📍 查看地圖](https://www.google.com/maps/search/Namsangol+Hanok+Village) |
-| N首爾塔 | [📍 查看地圖](https://www.google.com/maps/search/N+Seoul+Tower) |
-| 仁寺洞 | [📍 查看地圖](https://www.google.com/maps/search/Insadong+Seoul) |
-
-### 🌳 公園/自然景點
-| 景點 | Google Maps |
-|------|-------------|
-| 漢江公園汝矣島 | [📍 查看地圖](https://www.google.com/maps/search/Yeouido+Hangang+Park) |
-| 盤浦漢江公園 | [📍 查看地圖](https://www.google.com/maps/search/Banpo+Hangang+Park) |
-| 首爾林 | [📍 查看地圖](https://www.google.com/maps/search/Seoul+Forest) |
-| 藍天公園 | [📍 查看地圖](https://www.google.com/maps/search/Haneul+Park+Seoul) |
-| 奧林匹克公園 | [📍 查看地圖](https://www.google.com/maps/search/Olympic+Park+Seoul) |
-| 南怡島 | [📍 查看地圖](https://www.google.com/maps/search/Nami+Island+Gapyeong) |
-| 小法國村 | [📍 查看地圖](https://www.google.com/maps/search/Petite+France+Gapyeong) |
-
-### ⚽ 足球/運動
-| 景點 | Google Maps |
-|------|-------------|
-| 首爾世界盃競技場 | [📍 查看地圖](https://www.google.com/maps/search/Seoul+World+Cup+Stadium) |
-
-### 🛍️ 購物區
-| 景點 | Google Maps |
-|------|-------------|
-| 明洞 | [📍 查看地圖](https://www.google.com/maps/search/Myeongdong+Seoul) |
-| 弘大 | [📍 查看地圖](https://www.google.com/maps/search/Hongdae+Seoul) |
-| COEX Mall | [📍 查看地圖](https://www.google.com/maps/search/COEX+Mall+Seoul) |
-| 樂天世界Mall | [📍 查看地圖](https://www.google.com/maps/search/Lotte+World+Mall+Seoul) |
-| 東大門DDP | [📍 查看地圖](https://www.google.com/maps/search/Dongdaemun+Design+Plaza) |
-| IFC Mall汝矣島 | [📍 查看地圖](https://www.google.com/maps/search/IFC+Mall+Seoul) |
-
----
-
-## �🔗 實用預訂連結
-
-- Klook / KKday - 門票、一日遊預訂
-- Naver Map - 韓國導航必備
-- Papago - 翻譯 App
-- Kakao Taxi - 叫車 App
-
----
-
-> 💬 **提示**：可根據興趣圈選想去的景點，我再幫您安排詳細行程！
+<section class="hero-panel">
+  <p class="eyebrow">Seoul family trip · 2026.05.09 – 2026.05.15</p>
+  <h1>首爾親子七日行程計劃書</h1>
+  <p class="hero-lead">
+    這是一份以 <strong>2 大 1 小、4.5 歲孩子</strong> 為核心設計的首爾行程。保留你原本的江南住宿動線、COEX、水族館、Everland、景福宮與購物日，
+    但把 <strong>Lotte World</strong> 改成更適合幼兒節奏的 <strong>Seoul Land + 首爾大公園</strong>，讓前半段不會連兩天都打大型樂園硬仗。
+  </p>
+
+  <div class="hero-pills">
+    <span>7 天 6 夜</span>
+    <span>2 大 1 小</span>
+    <span>金浦進出</span>
+    <span>前 4 晚江南、後 2 晚孔德</span>
+    <span>Seoul Land 取代樂天世界</span>
+  </div>
+
+  <div class="action-row">
+    <a class="action-button primary" href="#overview">先看行程總覽</a>
+    <a class="action-button" href="#food-guide">看附近餐廳推薦</a>
+    <a class="action-button" href="{{ '/首爾親子景點地圖.kml' | relative_url }}">下載 KML 地圖</a>
+  </div>
+</section>
+
+<div class="decision-note">
+  <strong>這次改動的核心判斷：</strong>
+  對 4.5 歲孩子來說，<strong>Seoul Land 比 Lotte World 更輕鬆、更幼兒友善</strong>；
+  而 Everland 則保留作為整趟旅程最有記憶點的主題樂園日。這樣排法的重點不是玩最多，而是讓一家三口玩得順、走得動、吃得舒服。
+</div>
+
+<nav class="quick-nav">
+  <a href="#overview">行程總覽</a>
+  <a href="#stays">住宿安排</a>
+  <a href="#days">每日詳細行程</a>
+  <a href="#food-guide">餐廳推薦</a>
+  <a href="#budget">預算整理</a>
+  <a href="#prep">出發前清單</a>
+</nav>
+
+<section class="content-section" id="overview">
+  <div class="section-heading">
+    <p class="kicker">Trip snapshot</p>
+    <h2>行程總覽</h2>
+    <p>把重要景點、交通節奏與住宿分區濃縮在一張表裡，出發前複習最方便。</p>
+  </div>
+
+  <table class="overview-table">
+    <thead>
+      <tr>
+        <th>日期</th>
+        <th>主題</th>
+        <th>地區</th>
+        <th>節奏</th>
+        <th>住宿</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>5/9（六）</td>
+        <td>抵達 + 奉恩寺 / COEX 外圍散步</td>
+        <td>江南</td>
+        <td>輕鬆暖身</td>
+        <td>Dormy Inn Gangnam</td>
+      </tr>
+      <tr>
+        <td>5/10（日）</td>
+        <td>COEX 水族館 + Starfield + COEX Mall</td>
+        <td>江南</td>
+        <td>室內舒適日</td>
+        <td>Dormy Inn Gangnam</td>
+      </tr>
+      <tr>
+        <td>5/11（一）</td>
+        <td><strong>Seoul Land + 首爾大公園</strong></td>
+        <td>果川</td>
+        <td>親子樂園日</td>
+        <td>Dormy Inn Gangnam</td>
+      </tr>
+      <tr>
+        <td>5/12（二）</td>
+        <td><strong>Everland 親子主菜日</strong></td>
+        <td>龍仁</td>
+        <td>全天重點日</td>
+        <td>Dormy Inn Gangnam</td>
+      </tr>
+      <tr>
+        <td>5/13（三）</td>
+        <td>換飯店 + 景福宮 + 韓服 + 仁寺洞</td>
+        <td>光化門 / 鐘路</td>
+        <td>文化拍照日</td>
+        <td>GLAD Mapo</td>
+      </tr>
+      <tr>
+        <td>5/14（四）</td>
+        <td>弘大主逛 + 明洞補貨</td>
+        <td>弘大 / 明洞</td>
+        <td>彈性購物日</td>
+        <td>GLAD Mapo</td>
+      </tr>
+      <tr>
+        <td>5/15（五）</td>
+        <td>南大門（可選）+ 金浦返程</td>
+        <td>首爾 / 金浦</td>
+        <td>收尾返程日</td>
+        <td>—</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="content-section" id="stays">
+  <div class="section-heading">
+    <p class="kicker">Stay plan</p>
+    <h2>住宿與動線安排</h2>
+    <p>原本的兩段住宿分配是正確的，前半段集中江南，後半段切到孔德，對親子動線很有幫助。</p>
+  </div>
+
+  <div class="summary-grid">
+    <article class="summary-card">
+      <p class="card-tag">5/9–5/13</p>
+      <h3>Dormy Inn SEOUL Gangnam</h3>
+      <p><strong>地址：</strong>서울특별시 강남구 봉은사로 425</p>
+      <p><strong>最近地鐵：</strong>新論峴站（Line 9），步行約 400m</p>
+      <p><strong>適合安排：</strong>COEX、Seoul Land、Everland</p>
+      <p><strong>提醒：</strong>大浴場是男女分開，較適合爸媽輪流泡，不建議當成固定親子活動。</p>
+    </article>
+
+    <article class="summary-card">
+      <p class="card-tag">5/13–5/15</p>
+      <h3>GLAD Mapo</h3>
+      <p><strong>地址：</strong>서울특별시 마포구 마포대로 86</p>
+      <p><strong>最近地鐵：</strong>孔德站直結（AREX / Line 5 / Line 6 / 京義中央線）</p>
+      <p><strong>適合安排：</strong>景福宮、仁寺洞、弘大、明洞、返機場</p>
+      <p><strong>優勢：</strong>回金浦只要 15–18 分鐘，最後兩晚放這裡非常合理。</p>
+    </article>
+
+    <article class="summary-card">
+      <p class="card-tag">換飯店日</p>
+      <h3>最省力做法</h3>
+      <p><strong>10:00</strong> Dormy Inn Checkout</p>
+      <p><strong>10:30</strong> Kakao Taxi 直送 GLAD Mapo 寄放行李</p>
+      <p><strong>11:00 後</strong> 輕裝出發去光化門 / 景福宮</p>
+      <p><strong>好處：</strong>不需要拖著行李換地鐵，親子旅行體感差很多。</p>
+    </article>
+  </div>
+</section>
+
+<section class="content-section" id="days">
+  <div class="section-heading">
+    <p class="kicker">Day-by-day</p>
+    <h2>每日詳細行程</h2>
+    <p>每一天都保留了彈性，不把孩子體力逼到最後一格。真正的重點是「順」、「能休息」、「好吃」。</p>
+  </div>
+
+  <article class="day-card" id="day1">
+    <div class="day-head">
+      <span class="day-badge">Day 1 · 5/9（六）</span>
+      <h3>抵達首爾 + 奉恩寺 / COEX 外圍散步</h3>
+      <p>抵達日只做輕量散步，讓孩子有時間消化飛行與交通疲勞。</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <strong>交通建議</strong>
+        <span>金浦機場 → Line 9 → 新論峴站，約 35–40 分鐘</span>
+      </div>
+      <div class="info-item">
+        <strong>主軸</strong>
+        <span>先休息、早點吃飯、不要硬塞景點</span>
+      </div>
+      <div class="info-item">
+        <strong>備案</strong>
+        <span>若班機延誤，直接刪奉恩寺也沒問題</span>
+      </div>
+    </div>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>安排</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>14:00 前後</td>
+          <td>抵達金浦機場、入境、提領行李</td>
+        </tr>
+        <tr>
+          <td>15:00–16:00</td>
+          <td>前往 Dormy Inn Check-in、稍作休息</td>
+        </tr>
+        <tr>
+          <td>16:30–18:00</td>
+          <td>奉恩寺散步；若孩子累，改 COEX 外圍散步即可</td>
+        </tr>
+        <tr>
+          <td>18:30–20:00</td>
+          <td>江南晚餐</td>
+        </tr>
+        <tr>
+          <td>20:30 後</td>
+          <td>回飯店休息，讓隔天狀態完整</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="chips">
+      <span>關鍵字：不要排滿</span>
+      <span>關鍵字：先適應首爾節奏</span>
+      <span>關鍵字：江南晚餐就近吃</span>
+    </div>
+  </article>
+
+  <article class="day-card" id="day2">
+    <div class="day-head">
+      <span class="day-badge">Day 2 · 5/10（日）</span>
+      <h3>COEX 水族館 + Starfield 圖書館 + COEX Mall</h3>
+      <p>把第二天設定成室內舒適日，對孩子和爸媽都很友善，也順便保留雨天容錯。</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <strong>門票提醒</strong>
+        <span>COEX 水族館建議先網路購票，假日現場常排隊</span>
+      </div>
+      <div class="info-item">
+        <strong>主軸</strong>
+        <span>看海洋生物、拍圖書館、舒服吃午餐</span>
+      </div>
+      <div class="info-item">
+        <strong>節奏</strong>
+        <span>這天不用再外掛其他重景點</span>
+      </div>
+    </div>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>安排</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>09:00</td>
+          <td>早餐</td>
+        </tr>
+        <tr>
+          <td>10:00–12:30</td>
+          <td>COEX 水族館</td>
+        </tr>
+        <tr>
+          <td>12:30–14:00</td>
+          <td>COEX Mall 午餐</td>
+        </tr>
+        <tr>
+          <td>14:00–15:00</td>
+          <td>Starfield Library 拍照、休息</td>
+        </tr>
+        <tr>
+          <td>15:00–17:30</td>
+          <td>COEX Mall 逛街 / 玩具店 / 咖啡廳</td>
+        </tr>
+        <tr>
+          <td>18:00 後</td>
+          <td>回飯店或江南晚餐</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="chips">
+      <span>建議：10 點開門就進場</span>
+      <span>建議：下午留給走走停停</span>
+      <span>適合：雨天 / 氣溫不穩</span>
+    </div>
+  </article>
+
+  <article class="day-card" id="day3">
+    <div class="day-head">
+      <span class="day-badge">Day 3 · 5/11（一）</span>
+      <h3>Seoul Land + 首爾大公園</h3>
+      <p>這一天是把樂天世界換掉後的關鍵調整：設施更溫和、排隊通常更短，也更符合 4.5 歲幼兒的節奏。</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <strong>交通建議</strong>
+        <span>新論峴站 → Dongjak 轉 Line 4 → 首爾大公園站 Exit 2</span>
+      </div>
+      <div class="info-item">
+        <strong>接駁亮點</strong>
+        <span>可搭 Elephant Train，孩子通常會很買單</span>
+      </div>
+      <div class="info-item">
+        <strong>門票參考</strong>
+        <span>成人 KRW 52,000 / 兒童 KRW 43,000，外國旅客常有折扣</span>
+      </div>
+    </div>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>安排</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>09:00</td>
+          <td>早餐後出發</td>
+        </tr>
+        <tr>
+          <td>10:15–10:30</td>
+          <td>抵達首爾大公園站，步行到 Elephant Train 搭車點</td>
+        </tr>
+        <tr>
+          <td>11:00–13:00</td>
+          <td>Seoul Land 核心區：Kids Zone / Fantasy Land</td>
+        </tr>
+        <tr>
+          <td>13:00–14:00</td>
+          <td>園內或站外附近午餐</td>
+        </tr>
+        <tr>
+          <td>14:00–16:00</td>
+          <td>補玩親子設施 + 首爾大公園外圍散步</td>
+        </tr>
+        <tr>
+          <td>17:00–18:00</td>
+          <td>返回江南，早點吃晚餐、早點休息</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="highlight-box">
+      <strong>4.5 歲優先設施：</strong>
+      Tiki Tok Train、Carousel、Mini Bumper Cars、Super Wings、Tobot Train、Peter Pan、Elephant Train。
+      <br>
+      <strong>不建議當主軸：</strong>
+      Black Hole 2000、X Flyer、其他刺激型雲霄飛車。
+    </div>
+  </article>
+
+  <article class="day-card" id="day4">
+    <div class="day-head">
+      <span class="day-badge">Day 4 · 5/12（二）</span>
+      <h3>Everland 親子主菜日</h3>
+      <p>Everland 最值得留，但也最耗體力。這天請改成真正的親子順序：先動物，再親子區，不要一早衝 T Express。</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <strong>交通建議</strong>
+        <span>維持江南出發 → Everland 接駁 / 直達巴士，或直接買套票接駁</span>
+      </div>
+      <div class="info-item">
+        <strong>門票參考</strong>
+        <span>成人 KRW 68,000 / 兒童 KRW 58,000（A season）</span>
+      </div>
+      <div class="info-item">
+        <strong>節奏原則</strong>
+        <span>孩子累了就提早撤，不要硬撐夜秀</span>
+      </div>
+    </div>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>安排</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:30</td>
+          <td>早餐後出發</td>
+        </tr>
+        <tr>
+          <td>10:00–12:00</td>
+          <td>先攻 Lost Valley / Safari World / Panda World</td>
+        </tr>
+        <tr>
+          <td>12:00–13:00</td>
+          <td>午餐</td>
+        </tr>
+        <tr>
+          <td>13:00–15:30</td>
+          <td>Magic Land / Aesop Village 親子設施</td>
+        </tr>
+        <tr>
+          <td>15:30–17:00</td>
+          <td>花園拍照、補看動物區、吃點心</td>
+        </tr>
+        <tr>
+          <td>17:00 後</td>
+          <td>視孩子體力決定要不要留晚一點</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="highlight-box">
+      <strong>4.5 歲推薦設施 / 區域：</strong>
+      Lost Valley、Safari World、Panda World、Royal Jubilee Carousel、Flying Elephant、Robot Car、Boong Boong Car、Car Kingdom、Lily Dance、Play Yard。
+      <br>
+      <strong>不建議當主軸：</strong>
+      T Express、需要排很久但孩子不能玩的成人向刺激設施。
+    </div>
+  </article>
+
+  <article class="day-card" id="day5">
+    <div class="day-head">
+      <span class="day-badge">Day 5 · 5/13（三）</span>
+      <h3>換飯店 + 景福宮 + 韓服 + 仁寺洞</h3>
+      <p>這是全行程最順的文化日：上午換飯店寄行李，之後整段都可以用輕裝移動。</p>
+    </div>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>安排</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10:00</td>
+          <td>Dormy Inn Checkout</td>
+        </tr>
+        <tr>
+          <td>10:30</td>
+          <td>Kakao Taxi 到 GLAD Mapo 寄放行李</td>
+        </tr>
+        <tr>
+          <td>11:30–14:00</td>
+          <td>韓服租借 + 景福宮拍照散步</td>
+        </tr>
+        <tr>
+          <td>14:00–15:00</td>
+          <td>午餐</td>
+        </tr>
+        <tr>
+          <td>15:30–17:30</td>
+          <td>仁寺洞、Ssamziegil、茶館</td>
+        </tr>
+        <tr>
+          <td>18:00 後</td>
+          <td>回 GLAD Mapo Check-in，晚上在孔德 / 麻浦附近吃飯</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="chips">
+      <span>午餐別卡死排隊名店</span>
+      <span>穿韓服記得留還衣時間</span>
+      <span>孩子狀況優先於拍照清單</span>
+    </div>
+  </article>
+
+  <article class="day-card" id="day6">
+    <div class="day-head">
+      <span class="day-badge">Day 6 · 5/14（四）</span>
+      <h3>弘大主逛 + 明洞補貨</h3>
+      <p>這天偏成人向，所以建議用「弘大為主、明洞為副」的思路，不必硬拼兩區都逛滿。</p>
+    </div>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>安排</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10:00–13:00</td>
+          <td>弘大：童趣商店、街區散步、品牌店</td>
+        </tr>
+        <tr>
+          <td>13:00–14:00</td>
+          <td>午餐</td>
+        </tr>
+        <tr>
+          <td>14:00–15:00</td>
+          <td>咖啡廳 / 休息 / 讓孩子放空</td>
+        </tr>
+        <tr>
+          <td>16:00 後</td>
+          <td>視精神決定是否前往明洞</td>
+        </tr>
+        <tr>
+          <td>16:30–19:00</td>
+          <td>明洞：Olive Young、伴手禮、補貨</td>
+        </tr>
+        <tr>
+          <td>20:00 前後</td>
+          <td>回 GLAD Mapo</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="highlight-box">
+      <strong>小提醒：</strong>
+      弘大到明洞若帶著小孩與戰利品，直接搭 Kakao Taxi 常比轉線舒服很多。這一天不適合排成購物馬拉松。
+    </div>
+  </article>
+
+  <article class="day-card" id="day7">
+    <div class="day-head">
+      <span class="day-badge">Day 7 · 5/15（五）</span>
+      <h3>南大門市場（可選）+ 金浦返程</h3>
+      <p>南大門是可選，不是必做。若前一晚累，直接睡晚一點，整體旅程會更完整。</p>
+    </div>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>安排</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>06:30–07:00</td>
+          <td>起床、整理行李</td>
+        </tr>
+        <tr>
+          <td>07:30–09:00</td>
+          <td>南大門市場（可刪）</td>
+        </tr>
+        <tr>
+          <td>09:30</td>
+          <td>回飯店取行李 / Checkout</td>
+        </tr>
+        <tr>
+          <td>10:30–10:45</td>
+          <td>孔德站搭 AREX 前往金浦機場</td>
+        </tr>
+        <tr>
+          <td>11:00 前後</td>
+          <td>抵達金浦機場</td>
+        </tr>
+        <tr>
+          <td>13:50</td>
+          <td>班機起飛</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+</section>
+
+<section class="content-section" id="food-guide">
+  <div class="section-heading">
+    <p class="kicker">Eat nearby</p>
+    <h2>景點附近餐廳推薦</h2>
+    <p>以下依照你這次行程會經過的區域整理。每個區域我都盡量配成「穩定中價位 + 道地高 CP + 可選一餐稍高價位」的組合。</p>
+  </div>
+
+  <div class="restaurant-grid">
+    <article class="restaurant-card">
+      <h3>Day 1–2｜江南 / 奉恩寺 / COEX</h3>
+
+      <div class="restaurant-item">
+        <h4>Jiho Hanbang Samgyetang <span class="price-tag">中價位</span></h4>
+        <p>推薦說明：蔘雞湯味道溫和、不刺激，對孩子最友善，也很適合抵達日或走了一整天後補體力。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>蔘雞湯、糯米雞湯、海鮮煎餅。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Yeongdonggeujip（영동그집） <span class="price-tag">中高價位</span></h4>
+        <p>推薦說明：在江南算是口碑穩、肉質好的韓牛 / 烤肉選項，份量與品質平衡不錯，適合第一晚或想吃一餐像樣韓牛時安排。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>韓牛烤肉、牛排肉、搭配小菜與白飯。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Woo Do Ok（우도옥） <span class="price-tag">中高價位</span></h4>
+        <p>推薦說明：Hanwoo 烤肉加平壤冷麵的組合很有代表性，適合大人想吃得更精緻一點，但又不想走到非常高價位。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>韓牛套餐、平壤冷麵、烤牛肉拼盤。</p>
+      </div>
+    </article>
+
+    <article class="restaurant-card">
+      <h3>Day 3｜Seoul Land / 首爾大公園 / 果川</h3>
+
+      <div class="restaurant-item">
+        <h4>Dongsung Hall（동성회관） <span class="price-tag">中價位</span></h4>
+        <p>推薦說明：果川一帶口碑不錯的韓式老店，主打樸實但夠味的韓國家常菜，吃完不會太油膩，適合樂園日中午或傍晚。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>水煮豬肉片（Suyuk）、韓式湯品、家常小菜。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Ppalgan Tteokbokki（빨간떡볶이） <span class="price-tag">平價高 CP</span></h4>
+        <p>推薦說明：如果想吃快速、道地又有韓國街頭感，這類 떡볶이 老店是很好的補給站。適合不想花太多時間坐下吃飯的時候。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>辣炒年糕、魚板、炸物拼盤。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Munwon Hanwoo Maeul <span class="price-tag">稍高價位</span></h4>
+        <p>推薦說明：如果 Day 3 想安排一餐比較正式的韓牛，這家是果川附近相對有質感、又沒有觀光區溢價那麼高的選擇。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>韓牛烤肉、牛排部位、韓牛套餐。</p>
+      </div>
+    </article>
+
+    <article class="restaurant-card">
+      <h3>Day 4｜Everland / 龍仁</h3>
+
+      <div class="restaurant-item">
+        <h4>Dubu Madang（두부마당） <span class="price-tag">中價位・強推</span></h4>
+        <p>推薦說明：Everland 周邊非常實用的一家店，手工豆腐新鮮、份量好、價位穩，適合親子與想吃得清爽一點的人。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>嫩豆腐鍋、豆腐火鍋、烤豆腐、豆腐配烤肉。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Sammidang Makguksu <span class="price-tag">中價位</span></h4>
+        <p>推薦說明：如果玩到下午想吃比較清爽、不要再吃太重的烤肉，冷蕎麥麵很適合。天氣熱時尤其加分。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>Makguksu 蕎麥冷麵、餃子鍋。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Jajak Namu Galbi Yongin <span class="price-tag">中高價位</span></h4>
+        <p>推薦說明：如果想在 Everland 當天吃一頓有「旅行感」的韓式烤排骨，這家比園內餐廳更有滿足感，也更適合大人。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>豬排骨、炭烤肉、韓式湯品。</p>
+      </div>
+    </article>
+
+    <article class="restaurant-card">
+      <h3>Day 5｜景福宮 / 仁寺洞</h3>
+
+      <div class="restaurant-item">
+        <h4>Tosokchon Samgyetang（토속촌 삼계탕） <span class="price-tag">中價位・經典</span></h4>
+        <p>推薦說明：你原本就排這家是合理的。名氣大，但也確實好吃；蔘雞湯對大人小孩都友善，穿韓服走完景福宮後來一碗很剛好。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>蔘雞湯、烏骨雞蔘雞湯、海鮮煎餅。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Bukchon Son Mandu <span class="price-tag">平價高 CP</span></h4>
+        <p>推薦說明：手工餃子幾乎不太會踩雷，出餐快，特別適合親子行程裡不想排太久名店時的替代方案。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>蒸餃、煎餃、餃子湯、麵食。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Gogung（고궁） <span class="price-tag">中價位</span></h4>
+        <p>推薦說明：全州拌飯視覺好看、口味也容易調整成不那麼辣，對帶孩子的家庭很友善。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>全州石鍋拌飯、韓式煎餅、小菜拼盤。</p>
+      </div>
+    </article>
+
+    <article class="restaurant-card">
+      <h3>Day 5 晚上 / Day 7 早上｜孔德 / 麻浦 / 南大門</h3>
+
+      <div class="restaurant-item">
+        <h4>Yukjeon Hoegwan（역전회관） <span class="price-tag">中價位・強推</span></h4>
+        <p>推薦說明：孔德附近很值得排進去的一家老字號，招牌的 Bassak Bulgogi 很有特色，也比一般觀光烤肉店更有在地感。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>Bassak Bulgogi、套餐、小菜拼盤。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Guldari Sikdang（굴다리식당） <span class="price-tag">平價高 CP</span></h4>
+        <p>推薦說明：這種只有幾樣招牌菜的老店，通常代表穩定。適合想快速吃一頓很韓國、很家常的晚餐。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>泡菜鍋、辣炒豬肉、蛋捲。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Hadongkwan（하동관） <span class="price-tag">中價位</span></h4>
+        <p>推薦說明：如果最後一天去南大門或明洞附近，這家老字號牛骨湯很適合當返程前的暖胃早餐或早午餐。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>牛骨湯飯、清燉牛肉、泡菜。</p>
+      </div>
+    </article>
+
+    <article class="restaurant-card">
+      <h3>Day 6｜弘大</h3>
+
+      <div class="restaurant-item">
+        <h4>Hongdae Yukji（홍대 육지） <span class="price-tag">中價位</span></h4>
+        <p>推薦說明：熟成五花肉和牛胸肉品質不錯，店員會幫烤，對帶小孩的家庭很實用，不需要邊顧火邊顧孩子。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>熟成五花肉、牛胸肉、烤肉套餐。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Yoogane Chicken Galbi <span class="price-tag">中價位・親子友善</span></h4>
+        <p>推薦說明：닭갈비 很有韓國旅行感，而且加起司之後對孩子更容易入口，是互動感高又不失敗的選擇。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>起司辣炒雞、炒飯、年糕加料。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Okdongsik（옥동식） <span class="price-tag">平價高 CP</span></h4>
+        <p>推薦說明：米其林系的清爽豬肉湯飯，不辣、不重口，非常適合購物日前後需要一頓舒服熱湯的時候。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>豬肉湯飯、白切豬肉、米飯套餐。</p>
+      </div>
+    </article>
+
+    <article class="restaurant-card">
+      <h3>Day 6 補貨｜明洞</h3>
+
+      <div class="restaurant-item">
+        <h4>Myeongdong Kyoja（명동교자） <span class="price-tag">平價高 CP・經典</span></h4>
+        <p>推薦說明：明洞最穩的經典店之一，出餐快、味道穩、對孩子接受度也高。你如果只在明洞吃一餐，這家很安全。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>刀削麵、餃子、拌麵。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Wangbijib（왕비집） <span class="price-tag">中價位</span></h4>
+        <p>推薦說明：明洞少數對觀光客仍算穩定的烤肉店，套餐式點法簡單，服務熟練，適合一家三口不想花太多腦力選店。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>五花肉、牛小排、烤肉拼盤。</p>
+      </div>
+
+      <div class="restaurant-item">
+        <h4>Hasuo Gomtang <span class="price-tag">中價位</span></h4>
+        <p>推薦說明：如果購物完很累、想吃溫和不辣的熱食，牛骨湯和蔘雞湯都是很好的收尾。</p>
+        <p class="dish-line"><strong>推薦菜色：</strong>牛骨湯、雪濃湯、蔘雞湯、泡菜煎餅。</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="content-section" id="budget">
+  <div class="section-heading">
+    <p class="kicker">Budget view</p>
+    <h2>預算整理</h2>
+    <p>以下是目前比較實用的預估方式，先抓中間值即可，之後再依實際訂票調整。</p>
+  </div>
+
+  <table class="overview-table">
+    <thead>
+      <tr>
+        <th>項目</th>
+        <th>預估</th>
+        <th>備註</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>住宿</td>
+        <td>TWD 24,000–26,000</td>
+        <td>Dormy Inn 4 晚 + GLAD Mapo 2 晚</td>
+      </tr>
+      <tr>
+        <td>COEX 水族館</td>
+        <td>約 KRW 82,000</td>
+        <td>2 大 1 小，先買通常更便宜</td>
+      </tr>
+      <tr>
+        <td>Seoul Land</td>
+        <td>約 KRW 147,000</td>
+        <td>官方原價；外國旅客常可再折</td>
+      </tr>
+      <tr>
+        <td>Everland</td>
+        <td>約 KRW 194,000</td>
+        <td>以 A season 估算</td>
+      </tr>
+      <tr>
+        <td>主要景點小計</td>
+        <td>約 KRW 423,000</td>
+        <td>約 TWD 10,000 左右</td>
+      </tr>
+      <tr>
+        <td>市區交通 + 計程車</td>
+        <td>TWD 2,500–3,500</td>
+        <td>含換飯店日與購物日的彈性叫車</td>
+      </tr>
+      <tr>
+        <td>餐飲預算</td>
+        <td>TWD 7,000–12,000</td>
+        <td>取決於韓牛 / 烤肉安排次數</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="content-section" id="prep">
+  <div class="section-heading">
+    <p class="kicker">Before departure</p>
+    <h2>出發前清單</h2>
+    <p>真正會讓旅程順起來的，不是多一個景點，而是把這幾個前置工作先做好。</p>
+  </div>
+
+  <div class="prep-grid">
+    <article class="summary-card">
+      <h3>先訂 / 先截圖</h3>
+      <ul class="clean-list">
+        <li>COEX 水族館門票</li>
+        <li>Everland 門票或接駁</li>
+        <li>韓服租借預約</li>
+        <li>Seoul Land 外國旅客優惠頁截圖</li>
+      </ul>
+    </article>
+
+    <article class="summary-card">
+      <h3>手機必裝 App</h3>
+      <ul class="clean-list">
+        <li>Kakao T：叫車</li>
+        <li>Naver Map：路線最準</li>
+        <li>Papago：韓文翻譯</li>
+        <li>Klook：票券 / 行程</li>
+      </ul>
+    </article>
+
+    <article class="summary-card">
+      <h3>親子裝備</h3>
+      <ul class="clean-list">
+        <li>防曬乳、輕便雨衣</li>
+        <li>孩子的小點心與玩具</li>
+        <li>行動電源</li>
+        <li>舒服好走的鞋</li>
+      </ul>
+    </article>
+  </div>
+
+  <div class="highlight-box">
+    <strong>最後一句提醒：</strong>
+    如果出發前看到 5/11 有大雨，再考慮把 Seoul Land 改成室內備案；否則照這版走，會比原本的 Lotte World + Everland 更不重複，也更適合 2 大 1 小的親子節奏。
+  </div>
+</section>
