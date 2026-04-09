@@ -408,17 +408,130 @@ const pageOrder = [
   { id: "prep", label: "準備", kind: "prep" },
 ];
 
+const essentialPages = pageOrder.filter((page) => page.kind !== "day");
+const itineraryPages = pageOrder.filter((page) => page.kind === "day");
+const PAGE_STORAGE_KEY = "seoul-family-trip-last-page";
+
+const staticPageSummaries = {
+  overview: {
+    title: "整趟節奏總覽",
+    description: "先理解為什麼 Seoul Land 會比 Lotte World 更適合這趟親子節奏，再決定每天看哪一頁。",
+    callout: "先抓前半段 COEX → Seoul Land → Everland",
+    meta: ["7 天 6 夜", "節奏先行", "第一次進站先看"],
+  },
+  stay: {
+    title: "住宿與換飯店策略",
+    description: "江南四晚配孔德兩晚的骨架很合理，這頁把 Day 5 的轉場拆成最好走的順序。",
+    callout: "Day 5 先寄行李再去景福宮",
+    meta: ["2 間飯店", "1 次轉場", "機場回程更輕鬆"],
+  },
+  budget: {
+    title: "預算抓法與彈性範圍",
+    description: "把住宿、票券、交通與餐飲抓成舒服區間，不必每天都算到最細。",
+    callout: "真正波動最大的是餐飲與購物",
+    meta: ["4 組預算卡", "先抓範圍", "方便旅途中調整"],
+  },
+  prep: {
+    title: "出發前清單",
+    description: "把票券、App 和親子裝備先整理好，旅行當天就能直接照著頁面走。",
+    callout: "先買票、先裝 App、先備好雨具",
+    meta: ["3 組待辦", "出發前先做", "手機上隨時可對照"],
+  },
+};
+
 function goToHash(id) {
+  const nextHash = `#${id}`;
+  if (window.location.hash === nextHash) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
   window.location.hash = id;
+}
+
+function getSavedPage() {
+  try {
+    const savedPage = window.localStorage.getItem(PAGE_STORAGE_KEY);
+    return pageOrder.some((page) => page.id === savedPage) ? savedPage : null;
+  } catch (error) {
+    return null;
+  }
 }
 
 function getPageFromHash() {
   const hash = window.location.hash.replace(/^#/, "");
-  return pageOrder.some((page) => page.id === hash) ? hash : "overview";
+  if (pageOrder.some((page) => page.id === hash)) return hash;
+  return getSavedPage() ?? "overview";
+}
+
+function shortenText(text, max = 88) {
+  return text.length <= max ? text : `${text.slice(0, max).trimEnd()}…`;
+}
+
+function getPageSummary(page) {
+  if (page.kind === "day") {
+    const firstStop = page.day.timeline[0];
+    return {
+      title: page.day.title,
+      description: page.day.summary,
+      callout: `${firstStop.time} · ${firstStop.title}`,
+      meta: [
+        `${page.day.timeline.length} 個時段`,
+        `${page.day.restaurants.length} 間餐廳`,
+        page.day.chips[0],
+      ],
+    };
+  }
+
+  return staticPageSummaries[page.id];
+}
+
+function getSectionLinks(page) {
+  if (page.kind === "day") {
+    return [
+      { label: "時程", target: `${page.id}-timeline` },
+      { label: "餐廳", target: `${page.id}-restaurants` },
+      { label: "提醒", target: `${page.id}-notes` },
+    ];
+  }
+
+  const sectionMap = {
+    overview: [
+      { label: "七天節奏", target: "overview-journey" },
+      { label: "調整原因", target: "overview-reasons" },
+    ],
+    stay: [{ label: "住宿細節", target: "stay-plan" }],
+    budget: [{ label: "預算卡片", target: "budget-cards" }],
+    prep: [{ label: "出發清單", target: "prep-checks" }],
+  };
+
+  return sectionMap[page.id] ?? [];
+}
+
+function scrollToSection(targetId) {
+  document.getElementById(targetId)?.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
 }
 
 function App() {
   const [pageId, setPageId] = useState(getPageFromHash);
+  const [navOpen, setNavOpen] = useState(false);
+  const [toast, setToast] = useState("");
+  const tabStripRef = React.useRef(null);
+
+  const activeIndex = useMemo(
+    () => pageOrder.findIndex((page) => page.id === pageId),
+    [pageId]
+  );
+  const activePage = pageOrder[activeIndex] ?? pageOrder[0];
+  const prevPage = pageOrder[activeIndex - 1];
+  const nextPage = pageOrder[activeIndex + 1];
+  const prevSummary = prevPage ? getPageSummary(prevPage) : null;
+  const nextSummary = nextPage ? getPageSummary(nextPage) : null;
+  const pageSummary = getPageSummary(activePage);
+  const sectionLinks = getSectionLinks(activePage);
+  const progressPercent = `${((activeIndex + 1) / pageOrder.length) * 100}%`;
 
   useEffect(() => {
     const onHashChange = () => setPageId(getPageFromHash());
@@ -428,37 +541,134 @@ function App() {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    setNavOpen(false);
+
+    try {
+      window.localStorage.setItem(PAGE_STORAGE_KEY, pageId);
+    } catch (error) {
+      // Ignore localStorage restrictions on private browsers.
+    }
   }, [pageId]);
 
-  const activeIndex = useMemo(
-    () => pageOrder.findIndex((page) => page.id === pageId),
-    [pageId]
-  );
-  const activePage = pageOrder[activeIndex] ?? pageOrder[0];
-  const prevPage = pageOrder[activeIndex - 1];
-  const nextPage = pageOrder[activeIndex + 1];
+  useEffect(() => {
+    if (!window.location.hash && pageId !== "overview") {
+      window.history.replaceState(null, "", `#${pageId}`);
+    }
+  }, [pageId]);
 
   useEffect(() => {
-    const titleMap = {
-      overview: "首爾親子七日行程",
-      stay: "住宿安排",
-      budget: "預算整理",
-      prep: "出發前準備",
+    document.title = `${pageSummary.title} · 首爾親子七日行程`;
+  }, [pageSummary.title]);
+
+  useEffect(() => {
+    const activeTab = tabStripRef.current?.querySelector(`[data-page-id="${pageId}"]`);
+    activeTab?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  }, [pageId]);
+
+  useEffect(() => {
+    if (!navOpen) return undefined;
+
+    const onKeyDown = (event) => {
+      if (event.key === "Escape") setNavOpen(false);
     };
-    document.title = `${titleMap[pageId] ?? activePage.day?.title ?? "首爾親子七日行程"} · 首爾親子七日行程`;
-  }, [pageId, activePage]);
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [navOpen]);
+
+  useEffect(() => {
+    document.body.classList.toggle("nav-open", navOpen);
+    return () => document.body.classList.remove("nav-open");
+  }, [navOpen]);
+
+  useEffect(() => {
+    if (!toast) return undefined;
+
+    const timer = window.setTimeout(() => setToast(""), 2200);
+    return () => window.clearTimeout(timer);
+  }, [toast]);
+
+  const openPage = (id) => {
+    setNavOpen(false);
+    goToHash(id);
+  };
+
+  const handleShare = async () => {
+    const shareUrl = new URL(window.location.href);
+    shareUrl.hash = pageId;
+
+    try {
+      if (navigator.share) {
+        await navigator.share({
+          title: pageSummary.title,
+          text: pageSummary.description,
+          url: shareUrl.toString(),
+        });
+        setToast("已開啟分享面板");
+        return;
+      }
+
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(shareUrl.toString());
+        setToast("已複製這頁連結");
+        return;
+      }
+
+      window.prompt("請手動複製這個連結", shareUrl.toString());
+      setToast("請手動複製連結");
+    } catch (error) {
+      if (error?.name === "AbortError") return;
+      setToast("分享暫時失敗，請稍後再試");
+    }
+  };
 
   return html`
     <div className="app-shell">
       <header className="hero">
-        <div className="hero-copy">
-          <p className="eyebrow">Seoul family trip · 2026/05/09–05/15</p>
-          <h1>首爾親子七日行程</h1>
-          <p>
-            這份頁面是專門為 <strong>2 大 1 小、4.5 歲孩子</strong> 做的手機版旅遊計畫書。
-            核心調整是把 <strong>Lotte World</strong> 改成 <strong>Seoul Land + 首爾大公園</strong>，
-            再保留 <strong>Everland</strong> 當整趟最有記憶點的主題樂園日。
-          </p>
+        <div className="hero-layout">
+          <div className="hero-copy">
+            <p className="eyebrow">Seoul family trip · 2026/05/09–05/15</p>
+            <h1>首爾親子七日行程</h1>
+            <p>
+              這份頁面是專門為 <strong>2 大 1 小、4.5 歲孩子</strong> 做的手機版旅遊計畫書。
+              核心調整是把 <strong>Lotte World</strong> 改成 <strong>Seoul Land + 首爾大公園</strong>，
+              再保留 <strong>Everland</strong> 當整趟最有記憶點的主題樂園日。
+            </p>
+          </div>
+
+          <aside className="hero-focus-card">
+            <p className="eyebrow">目前頁面</p>
+            <h2>${pageSummary.title}</h2>
+            <p>${shortenText(pageSummary.description, 112)}</p>
+
+            <div className="focus-meta-row">
+              ${pageSummary.meta.map(
+                (item) => html`<span key=${item} className="hero-chip subtle">${item}</span>`
+              )}
+            </div>
+
+            <div className="focus-callout">
+              <span>快速提示</span>
+              <strong>${pageSummary.callout}</strong>
+            </div>
+
+            <div className="focus-actions">
+              <button
+                className="mini-action"
+                onClick=${() => prevPage && openPage(prevPage.id)}
+                disabled=${!prevPage}
+              >
+                ${prevPage ? `← ${prevPage.label}` : "已是第一頁"}
+              </button>
+              <button
+                className="mini-action"
+                onClick=${() => nextPage && openPage(nextPage.id)}
+                disabled=${!nextPage}
+              >
+                ${nextPage ? `${nextPage.label} →` : "已是最後頁"}
+              </button>
+            </div>
+          </aside>
         </div>
 
         <div className="hero-chip-row">
@@ -480,52 +690,221 @@ function App() {
         </div>
 
         <div className="cta-row">
-          <button className="hero-button primary" onClick=${() => goToHash("day3")}>先看 Seoul Land</button>
-          <button className="hero-button ghost" onClick=${() => goToHash("day4")}>先看 Everland</button>
+          <button className="hero-button primary" onClick=${() => setNavOpen(true)}>打開全頁導航</button>
+          <button className="hero-button ghost" onClick=${() => openPage("day3")}>先看 Seoul Land</button>
+          <button className="hero-button ghost" onClick=${() => openPage("day4")}>先看 Everland</button>
           <a className="hero-button ghost" href="./首爾親子景點地圖.kml">下載 KML 地圖</a>
         </div>
       </header>
 
       <div className="nav-shell">
-        <div className="tab-strip" role="tablist" aria-label="Itinerary page navigator">
+        <div className="navigator-top">
+          <div className="navigator-current">
+            <span className="soft-label">${activePage.label}</span>
+            <div className="navigator-current-copy">
+              <strong>${pageSummary.title}</strong>
+              <p>${pageSummary.callout}</p>
+            </div>
+          </div>
+          <button className="navigator-open" onClick=${() => setNavOpen(true)}>全部頁面</button>
+        </div>
+
+        <div className="navigator-progress-track">
+          <span style=${{ width: progressPercent }}></span>
+        </div>
+
+        <div
+          ref=${tabStripRef}
+          className="tab-strip"
+          role="tablist"
+          aria-label="Itinerary page navigator"
+        >
           ${pageOrder.map(
             (page) => html`
               <button
                 key=${page.id}
                 className=${`tab-button ${page.id === pageId ? "active" : ""}`}
-                onClick=${() => goToHash(page.id)}
+                data-page-id=${page.id}
+                id=${`tab-${page.id}`}
+                onClick=${() => openPage(page.id)}
                 role="tab"
                 aria-selected=${page.id === pageId}
+                aria-controls="page-content"
+                tabIndex=${page.id === pageId ? 0 : -1}
               >
                 ${page.label}
               </button>
             `
           )}
         </div>
+
+        <div className="navigator-shortcuts">
+          ${sectionLinks.map(
+            (link) => html`
+              <button key=${link.target} className="shortcut-button" onClick=${() => scrollToSection(link.target)}>
+                ${link.label}
+              </button>
+            `
+          )}
+          <button className="shortcut-button secondary" onClick=${handleShare}>分享這頁</button>
+        </div>
       </div>
 
-      <main className="page-panel">
-        <${PageRenderer} page=${activePage} />
+      <${NavigatorDrawer}
+        open=${navOpen}
+        activeIndex=${activeIndex}
+        activePageId=${pageId}
+        onClose=${() => setNavOpen(false)}
+        onOpenPage=${openPage}
+      />
+
+      <main
+        key=${pageId}
+        id="page-content"
+        className="page-panel"
+        role="tabpanel"
+        aria-labelledby=${`tab-${pageId}`}
+      >
+        <${PageRenderer} page=${activePage} onOpenPage=${openPage} />
       </main>
 
       <footer className="pager">
-        <button onClick=${() => prevPage && goToHash(prevPage.id)} disabled=${!prevPage}>← 上一頁</button>
-        <div className="pager-status">${activeIndex + 1} / ${pageOrder.length}</div>
-        <button onClick=${() => nextPage && goToHash(nextPage.id)} disabled=${!nextPage}>下一頁 →</button>
+        <button onClick=${() => prevPage && openPage(prevPage.id)} disabled=${!prevPage}>
+          <span className="pager-eyebrow">上一頁</span>
+          <strong>${prevPage?.label ?? "最前頁"}</strong>
+          <span className="pager-caption">${prevSummary?.title ?? "沒有更前面的頁面了"}</span>
+        </button>
+        <div className="pager-status">
+          <strong>${activeIndex + 1} / ${pageOrder.length}</strong>
+          <span>${pageSummary.callout}</span>
+        </div>
+        <button onClick=${() => nextPage && openPage(nextPage.id)} disabled=${!nextPage}>
+          <span className="pager-eyebrow">下一頁</span>
+          <strong>${nextPage?.label ?? "最後頁"}</strong>
+          <span className="pager-caption">${nextSummary?.title ?? "你已看到最後一頁"}</span>
+        </button>
       </footer>
+
+      ${toast
+        ? html`<div className="floating-toast" role="status" aria-live="polite">${toast}</div>`
+        : null}
     </div>
   `;
 }
 
-function PageRenderer({ page }) {
-  if (page.kind === "overview") return html`<${OverviewPage} />`;
+function DrawerCard({ page, activeIndex, activePageId, onOpenPage }) {
+  const pageIndex = pageOrder.findIndex((item) => item.id === page.id);
+  const pageSummary = getPageSummary(page);
+  const stateClass =
+    page.id === activePageId ? "active" : pageIndex < activeIndex ? "done" : "upcoming";
+  const stateLabel =
+    page.id === activePageId ? "目前頁面" : pageIndex < activeIndex ? "已看過" : "接下來";
+
+  return html`
+    <button type="button" className=${`drawer-card ${stateClass}`} onClick=${() => onOpenPage(page.id)}>
+      <div className="drawer-card-top">
+        <span className="soft-label">${page.label}</span>
+        <span className="drawer-status">${stateLabel}</span>
+      </div>
+      <strong>${pageSummary.title}</strong>
+      <p>${shortenText(pageSummary.description, 82)}</p>
+      <div className="drawer-meta">
+        <span>${pageSummary.callout}</span>
+        <span>${pageSummary.meta[0]}</span>
+      </div>
+    </button>
+  `;
+}
+
+function NavigatorDrawer({ open, activeIndex, activePageId, onClose, onOpenPage }) {
+  const progressPercent = `${((activeIndex + 1) / pageOrder.length) * 100}%`;
+
+  return html`
+    <div
+      className=${`nav-drawer-backdrop ${open ? "open" : ""}`}
+      onClick=${onClose}
+      aria-hidden=${!open}
+    ></div>
+
+    <aside
+      className=${`nav-drawer ${open ? "open" : ""}`}
+      role="dialog"
+      aria-modal="true"
+      aria-hidden=${!open}
+      aria-label="Trip page navigator"
+    >
+      <div className="nav-drawer-header">
+        <div>
+          <p className="page-kicker">Trip navigator</p>
+          <h2>手機上直接切頁</h2>
+          <p>先選全程資訊，再切每天的行程卡。每一頁都保留 hash，方便直接分享給同行家人。</p>
+        </div>
+        <button className="icon-button" onClick=${onClose} aria-label="關閉全頁導航">✕</button>
+      </div>
+
+      <div className="drawer-progress">
+        <span>目前看到第 ${activeIndex + 1} 頁，共 ${pageOrder.length} 頁</span>
+        <div className="progress-track">
+          <span style=${{ width: progressPercent }}></span>
+        </div>
+      </div>
+
+      <section className="drawer-section">
+        <div className="section-head compact">
+          <div>
+            <h3>全程資訊</h3>
+            <p>先看總覽、住宿、預算與出發前清單，再切到每一天。</p>
+          </div>
+        </div>
+        <div className="drawer-grid">
+          ${essentialPages.map(
+            (page) => html`
+              <${DrawerCard}
+                key=${page.id}
+                page=${page}
+                activeIndex=${activeIndex}
+                activePageId=${activePageId}
+                onOpenPage=${onOpenPage}
+              />
+            `
+          )}
+        </div>
+      </section>
+
+      <section className="drawer-section">
+        <div className="section-head compact">
+          <div>
+            <h3>每日 itinerary</h3>
+            <p>用卡片快速找今天要看的那一天，比左右翻頁更省腦力。</p>
+          </div>
+        </div>
+        <div className="drawer-grid">
+          ${itineraryPages.map(
+            (page) => html`
+              <${DrawerCard}
+                key=${page.id}
+                page=${page}
+                activeIndex=${activeIndex}
+                activePageId=${activePageId}
+                onOpenPage=${onOpenPage}
+              />
+            `
+          )}
+        </div>
+      </section>
+    </aside>
+  `;
+}
+
+function PageRenderer({ page, onOpenPage }) {
+  if (page.kind === "overview") return html`<${OverviewPage} onOpenPage=${onOpenPage} />`;
   if (page.kind === "stay") return html`<${StayPage} />`;
   if (page.kind === "budget") return html`<${BudgetPage} />`;
   if (page.kind === "prep") return html`<${PrepPage} />`;
   return html`<${DayPage} day=${page.day} />`;
 }
 
-function OverviewPage() {
+function OverviewPage({ onOpenPage }) {
   return html`
     <section>
       <header className="page-header">
@@ -539,20 +918,49 @@ function OverviewPage() {
       <div className="summary-banner">
         <strong>一句話結論：</strong>
         前半段改成 <strong>COEX → Seoul Land → Everland</strong>，比原本的
-        <strong>COEX → Lotte World → Everland</strong> 更不重複，也更符合 4.5 歲孩子的可玩性與體力。
-      </div>
+          <strong>COEX → Lotte World → Everland</strong> 更不重複，也更符合 4.5 歲孩子的可玩性與體力。
+        </div>
 
-      <div className="overview-grid">
-        ${overviewCards.map(
-          (card) => html`
-            <article key=${card.title} className="overview-card">
-              <span className="soft-label">${card.tag}</span>
-              <h3>${card.title}</h3>
-              <p>${card.body}</p>
-            </article>
-          `
-        )}
-      </div>
+      <section className="section-block" id="overview-reasons">
+        <div className="overview-grid">
+          ${overviewCards.map(
+            (card) => html`
+              <article key=${card.title} className="overview-card">
+                <span className="soft-label">${card.tag}</span>
+                <h3>${card.title}</h3>
+                <p>${card.body}</p>
+              </article>
+            `
+          )}
+        </div>
+      </section>
+
+      <section className="section-block" id="overview-journey">
+        <div className="section-head">
+          <div>
+            <h3>七天節奏快切導航</h3>
+            <p>每張卡片都能直接跳到該日，手機上更像一個可切頁的旅遊小 App。</p>
+          </div>
+          <button className="text-link" onClick=${() => onOpenPage("day1")}>從 Day 1 開始</button>
+        </div>
+
+        <div className="journey-grid">
+          ${itineraryPages.map(
+            (page) => html`
+              <button key=${page.id} type="button" className="journey-card" onClick=${() => onOpenPage(page.id)}>
+                <span className="soft-label">${page.day.kicker}</span>
+                <h3>${page.day.title}</h3>
+                <p>${shortenText(page.day.summary, 92)}</p>
+                <div className="journey-meta">
+                  <span>${page.day.timeline[0].time} 出發</span>
+                  <span>${page.day.restaurants.length} 間餐廳</span>
+                  <span>${page.day.chips[0]}</span>
+                </div>
+              </button>
+            `
+          )}
+        </div>
+      </section>
     </section>
   `;
 }
@@ -566,7 +974,7 @@ function StayPage() {
         <p>前半段住江南、後半段住孔德，這個策略很對。真正需要做的只是把換飯店日做到夠輕鬆。</p>
       </header>
 
-      <div className="stay-grid">
+      <div id="stay-plan" className="stay-grid">
         ${hotels.map(
           (hotel) => html`
             <article key=${hotel.name} className="stay-card">
@@ -584,6 +992,9 @@ function StayPage() {
 }
 
 function DayPage({ day }) {
+  const firstStop = day.timeline[0];
+  const lastStop = day.timeline[day.timeline.length - 1];
+
   return html`
     <section>
       <header className="page-header">
@@ -591,6 +1002,33 @@ function DayPage({ day }) {
         <h2>${day.title}</h2>
         <p>${day.summary}</p>
       </header>
+
+      <div className="day-spotlight">
+        <div className="day-spotlight-copy">
+          <span className="soft-label">今天先做這件事</span>
+          <strong>${firstStop.time} · ${firstStop.title}</strong>
+          <p>${firstStop.text}</p>
+        </div>
+
+        <div className="day-pulse-grid">
+          <article className="pulse-card">
+            <span>出發時間</span>
+            <strong>${firstStop.time}</strong>
+          </article>
+          <article className="pulse-card">
+            <span>收尾節奏</span>
+            <strong>${lastStop.time}</strong>
+          </article>
+          <article className="pulse-card">
+            <span>餐廳備案</span>
+            <strong>${day.restaurants.length} 間</strong>
+          </article>
+        </div>
+      </div>
+
+      <div className="section-chip-row day-chip-row">
+        ${day.chips.map((chip) => html`<span key=${chip} className="section-chip">${chip}</span>`)}
+      </div>
 
       <div className="meta-grid">
         ${day.meta.map(
@@ -603,12 +1041,18 @@ function DayPage({ day }) {
         )}
       </div>
 
-      <section className="section-block">
-        <h3>今日時程</h3>
+      <section className="section-block" id=${`${day.id}-timeline`}>
+        <div className="section-head">
+          <div>
+            <h3>今日時程</h3>
+            <p>照這個順序走，能把體力消耗與移動成本壓在比較舒服的範圍。</p>
+          </div>
+        </div>
         <div className="timeline">
           ${day.timeline.map(
-            (item) => html`
+            (item, index) => html`
               <article key=${`${day.id}-${item.time}`} className="timeline-card">
+                <div className="timeline-step">${String(index + 1).padStart(2, "0")}</div>
                 <div className="timeline-time">${item.time}</div>
                 <div className="timeline-body">
                   <h3>${item.title}</h3>
@@ -620,38 +1064,53 @@ function DayPage({ day }) {
         </div>
       </section>
 
-      <section className="section-block">
-        <h3>今日關鍵字</h3>
-        <div className="section-chip-row">
-          ${day.chips.map((chip) => html`<span key=${chip} className="section-chip">${chip}</span>`)}
+      <section className="section-block" id=${`${day.id}-restaurants`}>
+        <div className="section-head">
+          <div>
+            <h3>附近餐廳推薦</h3>
+            <p>${day.restaurants.length} 間備案可依排隊、孩子情緒與回程時間彈性切換。</p>
+          </div>
         </div>
-      </section>
-
-      <section className="section-block">
-        <h3>附近餐廳推薦</h3>
         <div className="restaurant-grid">
           ${day.restaurants.map(
-            (restaurant) => html`
+            (restaurant, index) => html`
               <article key=${restaurant.name} className="restaurant-card">
-                <h4>${restaurant.name}</h4>
-                <span className="price-badge">${restaurant.price}</span>
+                <div className="restaurant-head">
+                  <div>
+                    <span className="soft-label">${index === 0 ? "優先考慮" : "備用選擇"}</span>
+                    <h4>${restaurant.name}</h4>
+                  </div>
+                  <span className="price-badge">${restaurant.price}</span>
+                </div>
                 <p className="restaurant-copy">
                   <strong>推薦說明：</strong>${restaurant.why}
                 </p>
-                <p className="dish-line">
+                <div className="dish-panel">
                   <strong>推薦菜色：</strong>${restaurant.dishes}
-                </p>
+                </div>
               </article>
             `
           )}
         </div>
       </section>
 
-      <section className="section-block">
-        <h3>關鍵提醒</h3>
-        <ul className="bullet-list">
-          ${day.notes.map((note) => html`<li key=${note}>${note}</li>`)}
-        </ul>
+      <section className="section-block" id=${`${day.id}-notes`}>
+        <div className="section-head">
+          <div>
+            <h3>關鍵提醒</h3>
+            <p>出門前快速掃一遍，最能避免旅途中臨時改線或孩子突然累掉。</p>
+          </div>
+        </div>
+        <div className="tip-stack">
+          ${day.notes.map(
+            (note, index) => html`
+              <article key=${note} className="tip-card">
+                <span className="tip-index">提醒 ${index + 1}</span>
+                <p>${note}</p>
+              </article>
+            `
+          )}
+        </div>
       </section>
     </section>
   `;
@@ -666,7 +1125,7 @@ function BudgetPage() {
         <p>先抓一個舒服範圍就好，不必把每一筆都算到極準。真正波動最大的通常是餐飲與購物。</p>
       </header>
 
-      <div className="budget-grid">
+      <div id="budget-cards" className="budget-grid">
         ${budgetCards.map(
           (card) => html`
             <article key=${card.label} className="budget-card">
@@ -690,7 +1149,7 @@ function PrepPage() {
         <p>把這些前置工作先做好，真正出發時你就只剩下「照著頁面走」這件事。</p>
       </header>
 
-      <div className="prep-grid">
+      <div id="prep-checks" className="prep-grid">
         ${prepCards.map(
           (card) => html`
             <article key=${card.title} className="prep-card">
