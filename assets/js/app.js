@@ -448,11 +448,16 @@ const staticPageSummaries = {
 
 function goToHash(id) {
   const nextHash = `#${id}`;
-  if (window.location.hash === nextHash) {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    return;
-  }
+  if (window.location.hash === nextHash) return false;
   window.location.hash = id;
+  return true;
+}
+
+function scrollPagePanelIntoView(behavior = "auto") {
+  document.getElementById("page-content")?.scrollIntoView({
+    behavior,
+    block: "start",
+  });
 }
 
 function getSavedPage() {
@@ -526,6 +531,10 @@ function App() {
   const [navOpen, setNavOpen] = useState(false);
   const [toast, setToast] = useState("");
   const tabStripRef = React.useRef(null);
+  const pageScrollPositionsRef = React.useRef({});
+  const pendingPageScrollRef = React.useRef(null);
+  const currentPageIdRef = React.useRef(pageId);
+  const firstPageRenderRef = React.useRef(true);
 
   const activeIndex = useMemo(
     () => pageOrder.findIndex((page) => page.id === pageId),
@@ -541,20 +550,55 @@ function App() {
   const progressPercent = `${((activeIndex + 1) / pageOrder.length) * 100}%`;
 
   useEffect(() => {
-    const onHashChange = () => setPageId(getPageFromHash());
+    currentPageIdRef.current = pageId;
+  }, [pageId]);
+
+  useEffect(() => {
+    const onHashChange = () => {
+      const nextPageId = getPageFromHash();
+      const currentPageId = currentPageIdRef.current;
+
+      if (nextPageId === currentPageId) return;
+
+      pageScrollPositionsRef.current[currentPageId] = window.scrollY;
+      pendingPageScrollRef.current = "restore";
+      setPageId(nextPageId);
+    };
+
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
     setNavOpen(false);
+
+    let frameId;
+    if (firstPageRenderRef.current) {
+      firstPageRenderRef.current = false;
+    } else if (pendingPageScrollRef.current === "restore") {
+      frameId = window.requestAnimationFrame(() => {
+        const savedScroll = pageScrollPositionsRef.current[pageId];
+
+        if (typeof savedScroll === "number") {
+          window.scrollTo({ top: savedScroll, behavior: "auto" });
+          return;
+        }
+
+        scrollPagePanelIntoView();
+      });
+    }
+
+    pendingPageScrollRef.current = null;
 
     try {
       window.localStorage.setItem(PAGE_STORAGE_KEY, pageId);
     } catch (error) {
       // Ignore localStorage restrictions on private browsers.
     }
+
+    return () => {
+      if (frameId) window.cancelAnimationFrame(frameId);
+    };
   }, [pageId]);
 
   useEffect(() => {
@@ -597,6 +641,13 @@ function App() {
 
   const openPage = (id) => {
     setNavOpen(false);
+    if (id === pageId) {
+      scrollPagePanelIntoView("smooth");
+      return;
+    }
+
+    pageScrollPositionsRef.current[pageId] = window.scrollY;
+    pendingPageScrollRef.current = "restore";
     goToHash(id);
   };
 
