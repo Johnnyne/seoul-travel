@@ -344,7 +344,7 @@ const days = [
     kicker: "Day 7 · 5/15（五）",
     title: "睡晚一點 + 孔德早餐 + 金浦返程",
     summary:
-      "南大門直接拿掉，最後一天只保留整理行李、飯店附近早餐與機場動線。節奏更乾淨，也比較不會把返程變成趕場。",
+      "最後一天只保留整理行李、飯店附近早餐與機場動線。節奏更乾淨，也比較不會把返程變成趕場。",
     meta: [
       { title: "返程節奏", value: "11:00 前後到金浦很充裕" },
       { title: "交通", value: "孔德站搭 AREX 直達金浦，約 15–18 分鐘" },
@@ -357,7 +357,7 @@ const days = [
       { time: "10:15–10:30", title: "孔德站搭 AREX", text: "GLAD Mapo 最大優勢就在最後一天完整發揮。" },
       { time: "10:45–11:00", title: "抵達金浦", text: "慢慢 Check-in、安檢、處理最後補給或退稅。" },
     ],
-    chips: ["Namdaemun 已移除", "飯店附近吃早餐", "把餘裕留給機場"],
+    chips: ["早餐就近解決", "GLAD Mapo 到機場很順", "把餘裕留給機場"],
     restaurants: [
       {
         name: "Mapo Yangji Seolleongtang（마포양지설렁탕）",
