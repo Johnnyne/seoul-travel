@@ -27,20 +27,30 @@ title: 首爾親子七日行程摘要
 
 ## 最終日程
 
+每一天後面都補一行超短 hashtags，當成 GitHub 版的每日 hot spots，讓掃讀時一眼就抓到主題。
+
 1. **Day 1 · 5/9（六）｜抵達 + 奉恩寺 / COEX 外圍散步**
    金浦入境後前往江南入住；如果精神還行，再到奉恩寺或 COEX 外圍走一圈，晚餐就近解決。
+   ↳ #江南入住 #奉恩寺 #COEX外圍散步 #Jiho蔘雞湯
 2. **Day 2 · 5/10（日）｜COEX 水族館 + Starfield Library + COEX Mall**
    以室內舒適日為主，水族館是核心，下午保留給拍照、逛街和休息。
+   ↳ #COEX水族館 #StarfieldLibrary #COEXMall #Yeongdonggeujip
 3. **Day 3 · 5/11（一）｜Seoul Land + 首爾大公園**
    以 Kids Zone、Fantasy Land 和 Elephant Train 為重點，走親子樂園節奏，不追刺激設施。
+   ↳ #SeoulLand #首爾大公園 #ElephantTrain #DongsungHall
 4. **Day 4 · 5/12（二）｜Everland 主題樂園日**
    先動物區，再親子設施區；孩子累了就提早收工，不硬拼夜秀。
+   ↳ #Everland #動物區 #親子設施區 #DubuMadang
 5. **Day 5 · 5/13（三）｜換飯店 + 景福宮 + 韓服 + 仁寺洞**
-   上午從江南轉到孔德寄放行李，下午輕裝跑文化路線，晚上回麻浦 / 孔德吃飯。
+   上午以 **10:00 · Dormy Inn Checkout** 為節點，從江南轉到孔德寄放行李，下午輕裝跑文化路線，晚上回麻浦 / 孔德吃飯。
+   ↳ #DormyInnCheckout #GLADMapo寄行李 #景福宮 #韓服體驗 #Tosokchon蔘雞湯
 6. **Day 6 · 5/14（四）｜聖水洞 + 首爾林：成熟系購物約會日**
    改成聖水洞 + 首爾林，因為比明洞少觀光壓力、比弘大少學生感，設計 / 生活風格店更集中，更適合兩位大人的成熟系購物與約會節奏。
+   可先鎖定：**ADERERROR Seongsu Space**（空間最有記憶點）、**NONFICTION Seongsu**（香氛 / 生活風格）、**Matin Kim**（韓牌服飾主力）、**Fennec Seongsu**（皮件小物）、**New Balance Seongsu**（球鞋補貨）。
+   ↳ #聖水洞 #首爾林 #成熟系購物 #Chamanda
 7. **Day 7 · 5/15（五）｜睡晚一點 + 孔德早餐 + 金浦返程**
    最後一天只留早餐、收行李、AREX 去金浦；節奏更乾淨，也比較不會把返程變成趕場。
+   ↳ #睡晚一點 #孔德早餐 #AREX #金浦返程
 
 ## 餐廳速查
 

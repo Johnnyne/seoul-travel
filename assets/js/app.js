@@ -91,6 +91,7 @@ const days = [
       { time: "18:30–20:00", title: "江南晚餐", text: "就近吃，吃完直接回飯店，為 Day 2 保留狀態。" },
     ],
     chips: ["不要排滿", "行李日只求穩", "江南晚餐就近解決"],
+    hashtags: ["#DormyInnCheckIn", "#奉恩寺", "#COEX夜散步", "#蔘雞湯首餐"],
     restaurants: [
       {
         name: "Jiho Hanbang Samgyetang",
@@ -130,6 +131,7 @@ const days = [
       { time: "15:00–17:30", title: "COEX Mall 散步", text: "玩具店、品牌店、超市，這段保持彈性就好。" },
     ],
     chips: ["室內舒適日", "先買票", "下午留給慢逛"],
+    hashtags: ["#COEX水族館", "#Starfield圖書館", "#COEXMall", "#韓牛冷麵"],
     restaurants: [
       {
         name: "Woo Do Ok（우도옥）",
@@ -176,6 +178,7 @@ const days = [
       { time: "17:00–18:00", title: "返回江南", text: "建議早點回去，晚餐也盡量吃得輕鬆。" },
     ],
     chips: ["比樂天世界更幼兒友善", "排隊通常較短", "為 Everland 留體力"],
+    hashtags: ["#SeoulLand", "#ElephantTrain", "#KidsZone", "#果川韓牛"],
     restaurants: [
       {
         name: "Dongsung Hall（동성회관）",
@@ -221,6 +224,7 @@ const days = [
       { time: "15:30–17:00", title: "花園與補拍照", text: "用較鬆的節奏收尾，讓整天體感更完整。" },
     ],
     chips: ["主菜日", "先動物區", "別被 T Express 帶偏"],
+    hashtags: ["#LostValley", "#SafariWorld", "#PandaWorld", "#MagicLand", "#嫩豆腐鍋"],
     restaurants: [
       {
         name: "Dubu Madang（두부마당）",
@@ -267,6 +271,7 @@ const days = [
       { time: "18:00 後", title: "回 GLAD Mapo", text: "Check-in 後再找孔德 / 麻浦晚餐。" },
     ],
     chips: ["換飯店日先寄行李", "韓服拍照日", "午餐不要卡死名店"],
+    hashtags: ["#DormyInnCheckout", "#GLADMapo寄行李", "#景福宮", "#韓服體驗", "#土俗村蔘雞湯"],
     restaurants: [
       {
         name: "Tosokchon Samgyetang（토속촌 삼계탕）",
@@ -298,7 +303,7 @@ const days = [
     kicker: "Day 6 · 5/14（四）",
     title: "聖水洞 + 首爾林：成熟系購物約會日",
     summary:
-      "把原本弘大 + 明洞換成聖水更適合 30 多歲的夫妻 / 情侶：比明洞少觀光壓力、比弘大少學生感，設計與生活風格店更集中，也更像舒服的約會日。",
+      "把原本弘大 + 明洞換成聖水更適合 30 多歲的夫妻 / 情侶：比明洞少觀光壓力、比弘大少學生感，設計與生活風格店更集中，也更像舒服的約會日。這版也先把 5 間值得優先逛的品牌整理好，走起來不會像漫無目的繞圈。",
     meta: [
       { title: "為什麼換", value: "比明洞少觀光壓力、比弘大更成熟" },
       { title: "交通", value: "孔德 → 首爾林 / 聖水約 25–30 分鐘" },
@@ -306,13 +311,51 @@ const days = [
     ],
     timeline: [
       { time: "10:30–11:30", title: "首爾林慢走", text: "先用公園與綠地把步調放慢，這也是聖水比明洞舒服的原因：一開始就不是被人潮推著走。" },
-      { time: "11:30–13:30", title: "聖水主街 / 旗艦店", text: "優先逛設計品牌、香氛、家居與選物店；這區比弘大更成熟，也更適合兩位大人一起慢慢看。" },
+      { time: "11:30–13:30", title: "聖水主街 / 旗艦店", text: "先看 ADERERROR、NONFICTION 這種旗艦與香氛空間，把今天想買的方向定下來；這區比弘大更成熟，也更適合兩位大人一起慢慢看。" },
       { time: "13:30–14:30", title: "午餐", text: "找一間能坐下來聊天的店，不把這天做成掃貨競賽。" },
       { time: "14:30–16:00", title: "咖啡 + 巷弄第二輪", text: "逛累就進咖啡館，再補看獨立品牌與 pop-up，維持像約會而不是衝行程的節奏。" },
-      { time: "16:00–18:30", title: "鎖定真正想買的店", text: "第二輪再決定服飾、球鞋、家居或香氛，不必像明洞那樣一口氣補貨。" },
+      { time: "16:00–18:30", title: "鎖定真正想買的店", text: "第二輪再回 Matin Kim、Fennec 或 New Balance 試穿 / 試背 / 試鞋，買得更準，也不用像明洞那樣一口氣補貨。" },
       { time: "18:30 後", title: "聖水 / 首爾林晚餐", text: "直接在附近吃完再回孔德，讓最後一晚保持輕鬆。" },
     ],
-    chips: ["成熟系購物日", "設計 / 生活風格店多", "比明洞更舒服"],
+    chips: ["成熟系購物日", "5 間品牌先鎖定", "比明洞更舒服"],
+    hashtags: ["#首爾林", "#聖水品牌巡店", "#設計旗艦店", "#香氛伴手禮", "#大成갈비"],
+    brandGuide: {
+      title: "品牌推薦清單",
+      intro:
+        "如果 Day 6 不想走成漫無目的亂逛，先把這 5 間當第一輪核心清單：先看空間、再聞香、再試穿，最後才決定包夾或球鞋。",
+      picks: [
+        {
+          name: "ADERERROR Seongsu Space",
+          category: "設計服飾 / 旗艦空間",
+          why: "想把聖水的「只有這裡才有」感一次看滿，先去這裡最有感；空間本身就像展覽，逛完今天的審美方向會立刻定下來。",
+          bestFor: "第一輪先看空間、拍照與設計細節",
+        },
+        {
+          name: "NONFICTION Seongsu",
+          category: "香氛 / 生活風格 / 伴手禮",
+          why: "味道乾淨、包裝也穩，買給自己或帶回去送人都不太踩雷；逛街中段進來，也很適合把節奏放慢一點。",
+          bestFor: "護手霜、香水或一份好送的質感禮物",
+        },
+        {
+          name: "Matin Kim",
+          category: "成熟 K-fashion / 好搭單品",
+          why: "版型比可愛系街頭牌更成熟，試穿後很容易直接決定；如果想買一件回台灣也真的會穿的單品，這間優先度很高。",
+          bestFor: "外套、上衣或一套不用想太多的日常穿搭",
+        },
+        {
+          name: "Fennec Seongsu",
+          category: "極簡包夾 / 實用禮物",
+          why: "比大件戰利品更不佔行李，價格與實用度也更容易下手；很適合在 Day 6 尾段補一份送人或自己每天會用的東西。",
+          bestFor: "卡夾、短夾、小包這種不容易失手的實用禮",
+        },
+        {
+          name: "New Balance Seongsu",
+          category: "球鞋 / MADE 線可留意",
+          why: "如果本來就會看 NB，來聖水這間比在百貨隨便逛更值得；鞋款陳列常更有看頭，也可順手看看 MADE 或高階線。",
+          bestFor: "想認真試穿一雙能帶回家長穿的鞋",
+        },
+      ],
+    },
     restaurants: [
       {
         name: "Chamanda Seoul Forest（차만다 서울숲 본점）",
@@ -358,6 +401,7 @@ const days = [
       { time: "10:45–11:00", title: "抵達金浦", text: "慢慢 Check-in、安檢、處理最後補給或退稅。" },
     ],
     chips: ["早餐就近解決", "GLAD Mapo 到機場很順", "把餘裕留給機場"],
+    hashtags: ["#孔德早餐", "#GLADMapoCheckout", "#AREX直達", "#FritzCoffee", "#金浦返程"],
     restaurants: [
       {
         name: "Mapo Yangji Seolleongtang（마포양지설렁탕）",
@@ -498,18 +542,47 @@ function shortenText(text, max = 88) {
   return text.length <= max ? text : `${text.slice(0, max).trimEnd()}…`;
 }
 
+function normalizeHashtag(tag) {
+  const compactTag = `${tag ?? ""}`.trim().replace(/\s+/g, "");
+  if (!compactTag) return "";
+  return compactTag.startsWith("#") ? compactTag : `#${compactTag}`;
+}
+
+function getDayHashtags(day) {
+  const rawTags = day.hashtags?.length ? day.hashtags : day.chips ?? [];
+  return [...new Set(rawTags.map(normalizeHashtag).filter(Boolean))];
+}
+
+function getDayBrandGuide(day) {
+  const picks = Array.isArray(day.brandGuide?.picks)
+    ? day.brandGuide.picks.filter((item) => item?.name && item?.why)
+    : [];
+
+  if (!picks.length) return null;
+
+  return {
+    title: day.brandGuide?.title ?? "品牌推薦",
+    intro: day.brandGuide?.intro ?? `如果這天想把購物逛得更準，先從這 ${picks.length} 間開始。`,
+    picks,
+  };
+}
+
 function getPageSummary(page) {
   if (page.kind === "day") {
     const firstStop = page.day.timeline[0];
+    const brandGuide = getDayBrandGuide(page.day);
+    const meta = [
+      `${page.day.timeline.length} 個時段`,
+      `${page.day.restaurants.length} 間餐廳`,
+      ...(brandGuide ? [`${brandGuide.picks.length} 間品牌`] : []),
+      page.day.chips?.[0],
+    ].filter(Boolean);
+
     return {
       title: page.day.title,
       description: page.day.summary,
       callout: `${firstStop.time} · ${firstStop.title}`,
-      meta: [
-        `${page.day.timeline.length} 個時段`,
-        `${page.day.restaurants.length} 間餐廳`,
-        page.day.chips[0],
-      ],
+      meta,
     };
   }
 
@@ -518,8 +591,10 @@ function getPageSummary(page) {
 
 function getSectionLinks(page) {
   if (page.kind === "day") {
+    const brandGuide = getDayBrandGuide(page.day);
     return [
       { label: "時程", target: `${page.id}-timeline` },
+      ...(brandGuide ? [{ label: "品牌", target: `${page.id}-brands` }] : []),
       { label: "餐廳", target: `${page.id}-restaurants` },
       { label: "提醒", target: `${page.id}-notes` },
     ];
@@ -1078,6 +1153,8 @@ function StayPage() {
 function DayPage({ day }) {
   const firstStop = day.timeline[0];
   const lastStop = day.timeline[day.timeline.length - 1];
+  const spotlightTags = getDayHashtags(day);
+  const brandGuide = getDayBrandGuide(day);
 
   return html`
     <section>
@@ -1092,6 +1169,19 @@ function DayPage({ day }) {
           <span className="soft-label">今天先做這件事</span>
           <strong>${firstStop.time} · ${firstStop.title}</strong>
           <p>${firstStop.text}</p>
+          ${spotlightTags.length
+            ? html`
+                <div className="spotlight-hashtag-field">
+                  <span className="spotlight-hashtag-label">熱門 Hashtag</span>
+                  <div className="spotlight-hashtag-row">
+                    ${spotlightTags.map(
+                      (tag) =>
+                        html`<span key=${`${day.id}-${tag}`} className="spotlight-hashtag">${tag}</span>`
+                    )}
+                  </div>
+                </div>
+              `
+            : null}
         </div>
 
         <div className="day-pulse-grid">
@@ -1107,6 +1197,14 @@ function DayPage({ day }) {
             <span>餐廳備案</span>
             <strong>${day.restaurants.length} 間</strong>
           </article>
+          ${brandGuide
+            ? html`
+                <article className="pulse-card brand-pulse-card">
+                  <span>品牌清單</span>
+                  <strong>${brandGuide.picks.length} 間</strong>
+                </article>
+              `
+            : null}
         </div>
       </div>
 
@@ -1147,6 +1245,44 @@ function DayPage({ day }) {
           )}
         </div>
       </section>
+
+      ${brandGuide
+        ? html`
+            <section className="section-block" id=${`${day.id}-brands`}>
+              <div className="section-head">
+                <div>
+                  <h3>${brandGuide.title}</h3>
+                  <p>${brandGuide.intro}</p>
+                </div>
+              </div>
+              <div className="brand-grid">
+                ${brandGuide.picks.map(
+                  (brand, index) => html`
+                    <article key=${brand.name} className="brand-card">
+                      <div className="brand-card-top">
+                        <div className="brand-card-heading">
+                          <span className="brand-index">品牌 ${String(index + 1).padStart(2, "0")}</span>
+                          <h4>${brand.name}</h4>
+                        </div>
+                        <span className="soft-label">${brand.category ?? "品牌推薦"}</span>
+                      </div>
+                      <p className="brand-copy">
+                        <strong>為什麼值得去：</strong>${brand.why}
+                      </p>
+                      ${brand.bestFor
+                        ? html`
+                            <div className="brand-note">
+                              <strong>最適合：</strong>${brand.bestFor}
+                            </div>
+                          `
+                        : null}
+                    </article>
+                  `
+                )}
+              </div>
+            </section>
+          `
+        : null}
 
       <section className="section-block" id=${`${day.id}-restaurants`}>
         <div className="section-head">
